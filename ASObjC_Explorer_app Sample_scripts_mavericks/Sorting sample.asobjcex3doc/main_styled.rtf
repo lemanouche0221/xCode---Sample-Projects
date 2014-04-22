@@ -1,0 +1,187 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265
+{\fonttbl\f0\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red76\green78\blue78;\red108\green5\blue211;\red0\green0\blue255;
+\red255\green0\blue0;\red64\green128\blue0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\f0\fs24 \cf2 -- Created 2013-10-14 16:02:30 +1100 by Shane Stanley\cf0 \
+\cf2 -- \'a9 2013\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf0 use
+\b0  \cf3 AppleScript\cf0  \cf4 version\cf0  "2.3"\
+
+\b use
+\b0  
+\i \cf4 scripting additions
+\i0 \cf0 \
+
+\b use
+\b0  
+\i \cf4 framework
+\i0 \cf0  "Foundation"\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf0 on
+\b0  \cf5 sortAList\cf0 :\cf6 aList\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf0 	
+\b set
+\b0  \cf6 anArray\cf0  
+\b to
+\b0  
+\i \cf3 current application's
+\i0 \cf0  \cf6 NSArray's\cf0  \cf5 arrayWithArray\cf0 :\cf6 aList\cf0 \
+	
+\b return
+\b0  (\cf6 anArray's\cf0  \cf5 sortedArrayUsingSelector\cf0 :"compare:") 
+\b as
+\b0  
+\i \cf4 list
+\i0 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf0 end
+\b0  \cf5 sortAList\cf0 :\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf0 on
+\b0  
+\b \cf4 arrange in order
+\b0 \cf0  \cf6 aList\cf0  \cf2 -- simple sort with terminology\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf0 	
+\b set
+\b0  \cf6 anArray\cf0  
+\b to
+\b0  
+\i \cf3 current application's
+\i0 \cf0  \cf6 NSArray's\cf0  \cf5 arrayWithArray\cf0 :\cf6 aList\cf0 \
+	
+\b return
+\b0  (\cf6 anArray's\cf0  \cf5 sortedArrayUsingSelector\cf0 :"compare:") 
+\b as
+\b0  
+\i \cf4 list
+\i0 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf0 end
+\b0  
+\b \cf4 arrange in order
+\b0 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf0 on
+\b0  
+\b \cf4 order text list
+\b0 \cf0  \cf6 aList\cf0  \cf4 case relevant\cf0  \cf6 caseFlag\cf0  \cf2 -- text sort with case option\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf0 	
+\b try
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf0 		
+\b set
+\b0  \cf6 anArray\cf0  
+\b to
+\b0  
+\i \cf3 current application's
+\i0 \cf0  \cf6 NSArray's\cf0  \cf5 arrayWithArray\cf0 :\cf6 aList\cf0  \cf2 -- make array\cf0 \
+		
+\b if
+\b0  \cf6 caseFlag\cf0  
+\b then
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li2240\fi-2240\slleading22\pardirnatural
+\cf0 			
+\b set
+\b0  \cf6 anArray\cf0  
+\b to
+\b0  \cf6 anArray's\cf0  \cf5 sortedArrayUsingSelector\cf0 :"localizedCompare:"\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf0 		
+\b else
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li2240\fi-2240\slleading22\pardirnatural
+\cf0 			
+\b set
+\b0  \cf6 anArray\cf0  
+\b to
+\b0  \cf6 anArray's\cf0  \cf5 sortedArrayUsingSelector\cf0 :"localizedCaseInsensitiveCompare:"\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf0 		
+\b end
+\b0  
+\b if
+\b0 \
+		
+\b return
+\b0  \cf6 anArray\cf0  
+\b as
+\b0  
+\i \cf4 list
+\i0 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf0 	
+\b on
+\b0  
+\b error
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf0 		
+\b return
+\b0  \{\} \cf2 -- an empty array \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf0 	
+\b end
+\b0  
+\b try
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf0 end
+\b0  
+\b \cf4 order text list
+\b0 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf0 on
+\b0  
+\b \cf4 arrange records
+\b0 \cf0  \cf6 recordList\cf0  \cf4 by property\cf0  \cf6 theKey\cf0  \cf4 ascending order\cf0  \cf6 theOrder\cf0  \cf2 -- record sort\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf0 	
+\b set
+\b0  \cf6 anArray\cf0  
+\b to
+\b0  
+\i \cf3 current application's
+\i0 \cf0  \cf6 NSArray's\cf0  \cf5 arrayWithArray\cf0 :\cf6 recordList\cf0  \cf2 -- make array\cf0 \
+	
+\b set
+\b0  \cf6 aDescriptor\cf0  
+\b to
+\b0  
+\i \cf3 current application's
+\i0 \cf0  \cf6 NSSortDescriptor's\cf0  \cf5 sortDescriptorWithKey\cf0 :\cf6 theKey\cf0  \cf5 ascending\cf0 :\cf6 theOrder\cf0  \cf2 -- make a sort descriptor\cf0 \
+	
+\b return
+\b0  (\cf6 anArray's\cf0  \cf5 sortedArrayUsingDescriptors\cf0 :\{\cf6 aDescriptor\cf0 \}) 
+\b as
+\b0  
+\i \cf4 list
+\i0 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf0 end
+\b0  
+\b \cf4 arrange records}

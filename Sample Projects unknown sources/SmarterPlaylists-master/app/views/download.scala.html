@@ -1,0 +1,22 @@
+@(uuid: String, fileNames: List[String], extention: String)
+
+@main("download") {
+
+                                        <!-- Highlight Box -->
+
+                                                <div class="row">
+                                                        <div class="12u">
+                                                                <div class="cta-box">
+                                                                @if(flash.containsKey("error")){
+																	<div class="error">@flash.get("error")</div>
+																}
+																	<h2><a class="helper-image" href="/assets/images/itunes.windows.import.png" title="@Messages("upload.label.import")"><img src="/assets/images/question.png"></a>
+																	<span class="helper-offset">@Messages("download.label.link")</span></h2>
+																	@for(fileName <- fileNames) {
+																		<span><a href="/download/@(uuid)/@(fileName)">@Messages("filter.label." + fileName.replace(extention,""))</a></span>
+																	}
+                                                                </div>
+                                                        </div>
+                                                </div>
+
+}

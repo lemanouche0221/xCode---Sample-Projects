@@ -1,0 +1,10 @@
+.classpath
+.project
+.settings/**
+.target/**
+logs/application.log
+target/**
+tmp/**
+project/target/**
+project/project/target/**
+**/.DS_Store

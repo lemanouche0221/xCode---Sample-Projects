@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>2</integer>
+	<key>Date</key><date>2013-11-28T02:17:11Z</date>
+	<key>Application Version</key><string>11.1.3</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/C:/Music/</string>
+	<key>Library Persistent ID</key><string>437026SJ3UJ3Y3T7</string>
+	<key>Tracks</key>
+	<dict>
+		<key>8844</key>
+		<dict>
+			<key>Track ID</key><integer>8844</integer>
+			<key>Name</key><string>Come Alive</string>
+			<key>Artist</key><string>Foo Fighters</string>
+			<key>Album</key><string>Echoes, Silence, Patience &#38; Grace</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7645402</integer>
+			<key>Total Time</key><integer>310674</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2008-11-06T05:06:02Z</date>
+			<key>Date Added</key><date>2010-03-21T04:49:15Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>153</integer>
+			<key>Play Date</key><integer>3467659419</integer>
+			<key>Play Date UTC</key><date>2013-11-19T04:43:39Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2013-06-08T23:50:19Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FEBA0A5A4AD727B0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Foo%20Fighters%20-%20Come%20Alive.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9528</key>
+		<dict>
+			<key>Track ID</key><integer>9528</integer>
+			<key>Name</key><string>A320</string>
+			<key>Artist</key><string>Foo Fighters</string>
+			<key>Album</key><string>Godzilla</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5529937</integer>
+			<key>Total Time</key><integer>344973</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Date Modified</key><date>2008-03-05T02:06:32Z</date>
+			<key>Date Added</key><date>2010-03-21T04:49:30Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>122</integer>
+			<key>Play Date</key><integer>3465788970</integer>
+			<key>Play Date UTC</key><date>2013-10-28T13:09:30Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2013-10-10T03:53:23Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>381AD2E2A8E76706</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Foo%20Fighters%20-%20A320.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9660</key>
+		<dict>
+			<key>Track ID</key><integer>9660</integer>
+			<key>Name</key><string>Cautioners</string>
+			<key>Artist</key><string>Jimmy Eat World</string>
+			<key>Composer</key><string>Jimmy Eat World</string>
+			<key>Album</key><string>Bleed American</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7725733</integer>
+			<key>Total Time</key><integer>321436</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2001</integer>
+			<key>Date Modified</key><date>2008-08-18T07:25:16Z</date>
+			<key>Date Added</key><date>2010-03-21T04:49:32Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>112</integer>
+			<key>Play Date</key><integer>3465444887</integer>
+			<key>Play Date UTC</key><date>2013-10-24T13:34:47Z</date>
+			<key>Skip Count</key><integer>9</integer>
+			<key>Skip Date</key><date>2013-02-20T02:47:48Z</date>
+			<key>Normalization</key><integer>4506</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7E6C80892B5CAD50</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Jimmy%20Eat%20World%20-%20Cautioners.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9666</key>
+		<dict>
+			<key>Track ID</key><integer>9666</integer>
+			<key>Name</key><string>If You Don't, Don't</string>
+			<key>Artist</key><string>Jimmy Eat World</string>
+			<key>Composer</key><string>Jimmy Eat World</string>
+			<key>Album</key><string>Bleed American</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6569667</integer>
+			<key>Total Time</key><integer>273266</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2001</integer>
+			<key>Date Modified</key><date>2008-08-18T07:25:14Z</date>
+			<key>Date Added</key><date>2010-03-21T04:49:32Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>82</integer>
+			<key>Play Date</key><integer>3464803702</integer>
+			<key>Play Date UTC</key><date>2013-10-17T03:28:22Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2012-05-24T04:49:59Z</date>
+			<key>Normalization</key><integer>6859</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>CF9234C2F605740A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Jimmy%20Eat%20World%20-%20If%20You%20Don't,%20Don't.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9670</key>
+		<dict>
+			<key>Track ID</key><integer>9670</integer>
+			<key>Name</key><string>My Sundown</string>
+			<key>Artist</key><string>Jimmy Eat World</string>
+			<key>Composer</key><string>Jimmy Eat World</string>
+			<key>Album</key><string>Bleed American</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8361450</integer>
+			<key>Total Time</key><integer>347924</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2001</integer>
+			<key>Date Modified</key><date>2008-08-22T00:35:34Z</date>
+			<key>Date Added</key><date>2010-03-21T04:49:32Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>82</integer>
+			<key>Play Date</key><integer>3449220168</integer>
+			<key>Play Date UTC</key><date>2013-04-19T18:42:48Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2013-03-12T04:32:40Z</date>
+			<key>Normalization</key><integer>1433</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>9835A2E79E4A1918</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Jimmy%20Eat%20World%20-%20My%20Sundown.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10532</key>
+		<dict>
+			<key>Track ID</key><integer>10532</integer>
+			<key>Name</key><string>Blow Out</string>
+			<key>Artist</key><string>Radiohead</string>
+			<key>Composer</key><string>Radiohead (Thom Yorke)</string>
+			<key>Album</key><string>Pablo Honey</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7199362</integer>
+			<key>Total Time</key><integer>281939</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2009-10-04T23:58:16Z</date>
+			<key>Date Added</key><date>2010-03-21T04:49:55Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>105</integer>
+			<key>Play Date</key><integer>3459102433</integer>
+			<key>Play Date UTC</key><date>2013-08-12T03:47:13Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2011-06-02T01:55:30Z</date>
+			<key>Normalization</key><integer>3317</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3B55FFEC36DDD4B9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Radiohead%20-%20Blow%20Out.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10716</key>
+		<dict>
+			<key>Track ID</key><integer>10716</integer>
+			<key>Name</key><string>Skin And Bones</string>
+			<key>Artist</key><string>Foo Fighters</string>
+			<key>Composer</key><string>Dave Grohl</string>
+			<key>Album</key><string>Skin And Bones</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8045537</integer>
+			<key>Total Time</key><integer>241031</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2006</integer>
+			<key>Date Modified</key><date>2011-04-17T02:21:35Z</date>
+			<key>Date Added</key><date>2010-03-21T04:50:03Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>65</integer>
+			<key>Play Date</key><integer>3468003660</integer>
+			<key>Play Date UTC</key><date>2013-11-23T04:21:00Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2012-06-05T04:02:05Z</date>
+			<key>Normalization</key><integer>3661</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>9A9D1BC1A20E7DDA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Foo%20Fighters%20-%20Skin%20And%20Bones%20(Skin%20And%20Bones).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10892</key>
+		<dict>
+			<key>Track ID</key><integer>10892</integer>
+			<key>Name</key><string>World (Demo)</string>
+			<key>Artist</key><string>Foo Fighters</string>
+			<key>Composer</key><string>Foo Fighters</string>
+			<key>Album</key><string>Five Songs &#38; A Cover</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8582741</integer>
+			<key>Total Time</key><integer>340166</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>6</integer>
+			<key>Year</key><integer>2005</integer>
+			<key>Date Modified</key><date>2010-01-24T22:23:50Z</date>
+			<key>Date Added</key><date>2010-03-21T04:50:12Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>117</integer>
+			<key>Play Date</key><integer>3464762939</integer>
+			<key>Play Date UTC</key><date>2013-10-16T16:08:59Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2013-06-14T16:42:11Z</date>
+			<key>Normalization</key><integer>4728</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>023DDE089E93FEF0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Foo%20Fighters%20-%20World%20%5BDemo%5D.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11678</key>
+		<dict>
+			<key>Track ID</key><integer>11678</integer>
+			<key>Name</key><string>Be Somebody</string>
+			<key>Artist</key><string>Kings of Leon</string>
+			<key>Composer</key><string>Caleb Followill/Jared Followill/Matthew Followill/Nathan Followill</string>
+			<key>Album</key><string>Only By the Night</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7507916</integer>
+			<key>Total Time</key><integer>227213</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2008</integer>
+			<key>Date Modified</key><date>2010-10-18T03:08:31Z</date>
+			<key>Date Added</key><date>2010-03-21T05:00:26Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>88</integer>
+			<key>Play Date</key><integer>3463419909</integer>
+			<key>Play Date UTC</key><date>2013-10-01T03:05:09Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2013-11-08T13:24:49Z</date>
+			<key>Normalization</key><integer>4267</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>F5E29509C1B26469</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Kings%20of%20Leon%20-%20Be%20Somebody.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11716</key>
+		<dict>
+			<key>Track ID</key><integer>11716</integer>
+			<key>Name</key><string>My Friends</string>
+			<key>Artist</key><string>Red Hot Chili Peppers</string>
+			<key>Album Artist</key><string>Anthony Kiedis, Flea, John Frusciante, Chad Smith</string>
+			<key>Composer</key><string>Anthony Kiedis/Chad Smith/Flea</string>
+			<key>Album</key><string>One Hot Minute</string>
+			<key>Genre</key><string>Alternative &#38; Punk</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6032671</integer>
+			<key>Total Time</key><integer>242886</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1995</integer>
+			<key>Date Modified</key><date>2010-07-05T22:29:20Z</date>
+			<key>Date Added</key><date>2010-03-21T05:00:27Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>36</integer>
+			<key>Play Date</key><integer>3458819107</integer>
+			<key>Play Date UTC</key><date>2013-08-08T21:05:07Z</date>
+			<key>Normalization</key><integer>4871</integer>
+			<key>Compilation</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>58129546BE036721</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Red%20Hot%20Chili%20Peppers%20-%20My%20Friends.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11718</key>
+		<dict>
+			<key>Track ID</key><integer>11718</integer>
+			<key>Name</key><string>Warning Sign</string>
+			<key>Artist</key><string>Coldplay</string>
+			<key>Album Artist</key><string>Coldplay</string>
+			<key>Composer</key><string>Chris Martin/Jon Buckland/Will Champion</string>
+			<key>Album</key><string>A Rush Of Blood To The Head</string>
+			<key>Genre</key><string>Alternative Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10656753</integer>
+			<key>Total Time</key><integer>331206</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2011-07-26T03:29:32Z</date>
+			<key>Date Added</key><date>2010-03-21T05:00:27Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>54</integer>
+			<key>Play Date</key><integer>3465120372</integer>
+			<key>Play Date UTC</key><date>2013-10-20T19:26:12Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2013-05-15T13:37:05Z</date>
+			<key>Normalization</key><integer>2595</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Rush Of Blood To The Head</string>
+			<key>Persistent ID</key><string>A7865F9E9723688A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Coldplay/A%20Rush%20Of%20Blood%20To%20The%20Head/08%20Warning%20Sign.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11728</key>
+		<dict>
+			<key>Track ID</key><integer>11728</integer>
+			<key>Name</key><string>Dumb</string>
+			<key>Artist</key><string>Nirvana</string>
+			<key>Composer</key><string>Kurt Cobain</string>
+			<key>Album</key><string>MTV Unplugged In New York</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4375318</integer>
+			<key>Total Time</key><integer>173035</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2010-02-13T16:07:50Z</date>
+			<key>Date Added</key><date>2010-03-21T05:00:28Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>70</integer>
+			<key>Play Date</key><integer>3461517920</integer>
+			<key>Play Date UTC</key><date>2013-09-09T02:45:20Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2013-02-09T04:42:30Z</date>
+			<key>Normalization</key><integer>2039</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>D88BEAA4D602304F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Nirvana%20-%20Dumb%20(Unplugged).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11738</key>
+		<dict>
+			<key>Track ID</key><integer>11738</integer>
+			<key>Name</key><string>Oh, Me</string>
+			<key>Artist</key><string>Nirvana</string>
+			<key>Composer</key><string>Curt Kirkwood</string>
+			<key>Album</key><string>MTV Unplugged In New York</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5172790</integer>
+			<key>Total Time</key><integer>206262</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2010-02-13T16:07:44Z</date>
+			<key>Date Added</key><date>2010-03-21T05:00:28Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>93</integer>
+			<key>Play Date</key><integer>3461519372</integer>
+			<key>Play Date UTC</key><date>2013-09-09T03:09:32Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2011-10-22T00:02:58Z</date>
+			<key>Normalization</key><integer>1207</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B6E6ABDB92C18C5B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Nirvana%20-%20Oh,%20Me.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>12036</key>
+		<dict>
+			<key>Track ID</key><integer>12036</integer>
+			<key>Name</key><string>Arizona</string>
+			<key>Artist</key><string>Kings of Leon</string>
+			<key>Composer</key><string>Caleb Followill/Jared Followill/Matthew Followill/Nathan Followill</string>
+			<key>Album</key><string>Because of the Times</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7222664</integer>
+			<key>Total Time</key><integer>290168</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2010-05-09T00:43:17Z</date>
+			<key>Date Added</key><date>2010-05-09T00:08:12Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>87</integer>
+			<key>Play Date</key><integer>3468006097</integer>
+			<key>Play Date UTC</key><date>2013-11-23T05:01:37Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2013-07-28T00:50:39Z</date>
+			<key>Normalization</key><integer>5440</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>94F7AE214813CBDA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Kings%20of%20Leon%20-%20Arizona.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>12326</key>
+		<dict>
+			<key>Track ID</key><integer>12326</integer>
+			<key>Name</key><string>4th Of July</string>
+			<key>Artist</key><string>Soundgarden</string>
+			<key>Album</key><string>Superunknown</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7572185</integer>
+			<key>Total Time</key><integer>308349</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>BPM</key><integer>192</integer>
+			<key>Date Modified</key><date>2012-10-01T01:34:34Z</date>
+			<key>Date Added</key><date>2010-07-05T22:46:19Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>106</integer>
+			<key>Play Date</key><integer>3462304291</integer>
+			<key>Play Date UTC</key><date>2013-09-18T05:11:31Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2013-02-19T07:12:49Z</date>
+			<key>Normalization</key><integer>3580</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>64CEC1404A7F5071</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Soundgarden%20-%204th%20Of%20July.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>12466</key>
+		<dict>
+			<key>Track ID</key><integer>12466</integer>
+			<key>Name</key><string>Mountain Man</string>
+			<key>Artist</key><string>Crash Kings</string>
+			<key>Album</key><string>Crash Kings</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3355895</integer>
+			<key>Total Time</key><integer>196153</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2009</integer>
+			<key>Date Modified</key><date>2010-08-05T05:48:23Z</date>
+			<key>Date Added</key><date>2010-08-04T05:01:05Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>24</integer>
+			<key>Play Date</key><integer>3458730596</integer>
+			<key>Play Date UTC</key><date>2013-08-07T20:29:56Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2013-09-10T01:23:48Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>28E9CEF54A8B61CF</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Crash%20Kings%20-%20Mountain%20Man.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>12468</key>
+		<dict>
+			<key>Track ID</key><integer>12468</integer>
+			<key>Name</key><string>Letters From The Sky</string>
+			<key>Artist</key><string>Civil Twilight</string>
+			<key>Composer</key><string>Civil Twilight/Steven McKellar</string>
+			<key>Album</key><string>Civil Twilight</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9251049</integer>
+			<key>Total Time</key><integer>275095</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2010-11-10T03:06:42Z</date>
+			<key>Date Added</key><date>2010-08-05T05:37:52Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3417785403</integer>
+			<key>Play Date UTC</key><date>2012-04-20T22:50:03Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2013-11-22T03:21:25Z</date>
+			<key>Normalization</key><integer>6113</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>8A53220CA861FE88</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Civil%20Twilight%20-%20Letters%20From%20The%20Sky.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>12470</key>
+		<dict>
+			<key>Track ID</key><integer>12470</integer>
+			<key>Name</key><string>Trouble</string>
+			<key>Artist</key><string>Civil Twilight</string>
+			<key>Composer</key><string>Civil Twilight/Steven McKellar</string>
+			<key>Album</key><string>Civil Twilight</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10931232</integer>
+			<key>Total Time</key><integer>327601</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2010-11-10T03:06:43Z</date>
+			<key>Date Added</key><date>2010-08-05T05:38:27Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>15</integer>
+			<key>Play Date</key><integer>3456299945</integer>
+			<key>Play Date UTC</key><date>2013-07-10T17:19:05Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2010-11-23T03:06:09Z</date>
+			<key>Normalization</key><integer>6447</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>EB1ECAC40E380091</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Civil%20Twilight%20-%20Trouble.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>12650</key>
+		<dict>
+			<key>Track ID</key><integer>12650</integer>
+			<key>Name</key><string>Cold Desert</string>
+			<key>Artist</key><string>Kings of Leon</string>
+			<key>Composer</key><string>Caleb Followill/Jared Followill/Matthew Followill/Nathan Followill</string>
+			<key>Album</key><string>Only By the Night</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10949394</integer>
+			<key>Total Time</key><integer>334759</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2008</integer>
+			<key>Date Modified</key><date>2010-10-18T03:08:31Z</date>
+			<key>Date Added</key><date>2010-10-13T02:12:59Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>48</integer>
+			<key>Play Date</key><integer>3459004255</integer>
+			<key>Play Date UTC</key><date>2013-08-11T00:30:55Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2013-08-21T23:58:44Z</date>
+			<key>Normalization</key><integer>3493</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>73056E77E91D8C14</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Kings%20Of%20Leon/Only%20By%20The%20Night/11%20Cold%20Desert.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>13546</key>
+		<dict>
+			<key>Track ID</key><integer>13546</integer>
+			<key>Name</key><string>Staircase (live From The Basement)</string>
+			<key>Artist</key><string>Radiohead</string>
+			<key>Album</key><string>From The Basement</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10991143</integer>
+			<key>Total Time</key><integer>274776</integer>
+			<key>Date Modified</key><date>2011-06-21T14:55:26Z</date>
+			<key>Date Added</key><date>2011-08-11T13:38:15Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>48000</integer>
+			<key>Play Count</key><integer>21</integer>
+			<key>Play Date</key><integer>3465829194</integer>
+			<key>Play Date UTC</key><date>2013-10-29T00:19:54Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2013-01-25T17:25:56Z</date>
+			<key>Persistent ID</key><string>2A91FCD0CEFD4739</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Radiohead%20-%20Staircase.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>13974</key>
+		<dict>
+			<key>Track ID</key><integer>13974</integer>
+			<key>Name</key><string>Une Annee Sans Lumiere</string>
+			<key>Artist</key><string>Arcade Fire</string>
+			<key>Album</key><string>Funeral</string>
+			<key>Genre</key><string>Indie Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8053189</integer>
+			<key>Total Time</key><integer>221022</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2011-11-30T13:33:30Z</date>
+			<key>Date Added</key><date>2011-11-26T02:46:27Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>78</integer>
+			<key>Play Date</key><integer>3467457275</integer>
+			<key>Play Date UTC</key><date>2013-11-16T20:34:35Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2013-09-20T21:03:47Z</date>
+			<key>Normalization</key><integer>3017</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>1944F62DA5E8170E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Arcade%20Fire/Funeral/03%20Une%20Annee%20Sans%20Lumiere.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>13978</key>
+		<dict>
+			<key>Track ID</key><integer>13978</integer>
+			<key>Name</key><string>Neighborhood #4 (7 Kettles)</string>
+			<key>Artist</key><string>Arcade Fire</string>
+			<key>Album</key><string>Funeral</string>
+			<key>Genre</key><string>Indie Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10254167</integer>
+			<key>Total Time</key><integer>289802</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2011-11-30T13:33:30Z</date>
+			<key>Date Added</key><date>2011-11-26T02:46:55Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>81</integer>
+			<key>Play Date</key><integer>3467457877</integer>
+			<key>Play Date UTC</key><date>2013-11-16T20:44:37Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2013-03-29T05:29:19Z</date>
+			<key>Normalization</key><integer>1416</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>2F99595C5C28D2D6</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Arcade%20Fire/Funeral/05%20Neighborhood%20%234%20(7%20Kettles).mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5741</key>
+		<dict>
+			<key>Track ID</key><integer>5741</integer>
+			<key>Name</key><string>Revolution Disk 1 (Darkside)</string>
+			<key>Artist</key><string>DJ Tiesto</string>
+			<key>Album</key><string>Revolution</string>
+			<key>Genre</key><string>Trance</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>110614528</integer>
+			<key>Total Time</key><integer>4608653</integer>
+			<key>Year</key><integer>2001</integer>
+			<key>Date Modified</key><date>2011-02-02T04:28:27Z</date>
+			<key>Date Added</key><date>2010-03-21T04:46:31Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>- Impulsion's Rip For POW -</string>
+			<key>Play Count</key><integer>45</integer>
+			<key>Play Date</key><integer>3461095081</integer>
+			<key>Play Date UTC</key><date>2013-09-04T05:18:01Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2012-10-25T19:49:55Z</date>
+			<key>Persistent ID</key><string>528AFF354B26B805</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/DJ%20Tiesto%20-%20Revolution%20Disk%201%20(Darkside).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5771</key>
+		<dict>
+			<key>Track ID</key><integer>5771</integer>
+			<key>Name</key><string>Ministry Of Sound (Live)</string>
+			<key>Artist</key><string>Paul Van Dyk</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>63940608</integer>
+			<key>Total Time</key><integer>3199660</integer>
+			<key>Date Modified</key><date>2002-09-30T05:30:56Z</date>
+			<key>Date Added</key><date>2010-03-21T04:46:56Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3468661613</integer>
+			<key>Play Date UTC</key><date>2013-11-30T19:06:53Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2013-06-18T21:49:09Z</date>
+			<key>Persistent ID</key><string>4BC59FB571CEFCB7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Paul%20Van%20Dyk%20-%20Ministry%20Of%20Sound%20(Live).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>18244</key>
+		<dict>
+			<key>Track ID</key><integer>18244</integer>
+			<key>Name</key><string>RT Podcast #188</string>
+			<key>Artist</key><string>Rooster Teeth Podcast</string>
+			<key>Album</key><string>Rooster Teeth Podcast</string>
+			<key>Genre</key><string>Podcast</string>
+			<key>Date Added</key><date>2013-08-04T19:12:52Z</date>
+			<key>Release Date</key><date>2012-10-17T21:56:15Z</date>
+			<key>Persistent ID</key><string>5K5EEC0HSO219BE4</string>
+			<key>Track Type</key><string>URL</string>
+			<key>Podcast</key><true/>
+			<key>Unplayed</key><true/>
+			<key>Location</key><string>http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/rtpodcast/Rooster_Teeth_Podcast_188.m4a</string>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>Regular Playlist</string>
+			<key>Playlist ID</key><integer>41852</integer>
+			<key>Playlist Persistent ID</key><string>C7A5AD12589AC69B</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>12468</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>12470</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>12466</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>12036</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11678</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11718</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>8844</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10892</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9528</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10716</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9666</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9660</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10532</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11716</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>12326</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11728</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11738</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>12650</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9670</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>13546</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>13974</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>13978</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Smart Playlist</string>
+			<key>Playlist ID</key><integer>37068</integer>
+			<key>Playlist Persistent ID</key><string>77F0188BD4A27A15</string>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAABkAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAAAoAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAEAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAFudH
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAFudHAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAACAMAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAwAQwBvAG0AZQBkAHk=
+			</data>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>5741</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

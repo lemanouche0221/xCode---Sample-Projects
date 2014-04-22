@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="plist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dict"/>
+      </xs:sequence>
+      <xs:attribute name="version" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dict">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="dict"/>
+        <xs:element ref="array"/>
+        <xs:element ref="data"/>
+        <xs:element ref="date"/>
+        <xs:element ref="false"/>
+        <xs:element ref="integer"/>
+        <xs:element ref="key"/>
+        <xs:element ref="rating"/>
+        <xs:element ref="string"/>
+        <xs:element ref="true"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="array">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="dict"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="data" type="xs:base64Binary"/>
+  <xs:element name="date" type="xs:NMTOKEN"/>
+  <xs:element name="false">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="integer" type="xs:integer"/>
+  <xs:element name="key" type="xs:string"/>
+  <xs:element name="rating" type="xs:integer"/>
+  <xs:element name="string" type="xs:string"/>
+  <xs:element name="true">
+    <xs:complexType/>
+  </xs:element>
+</xs:schema>

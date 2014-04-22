@@ -1,0 +1,53 @@
+body {
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 10pt;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#image {
+  -webkit-border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 7px rgba(0,0,0,0.68);
+  -webkit-mask-image: none;
+  -webkit-background-clip: padding;
+  -webkit-background-origin: padding;
+  height: 252px;
+  width: 252px;
+  margin: 13px; /*TODO be a little more clipped*/
+  background-color: rgba(0,0,0,0.4);
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  border: 4px solid black;
+}
+
+#text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  width: 232px;
+  background:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.33)), to(rgba(0,0,0,0.50))); ;
+  text-shadow: 0px 2px 7px #000;
+}
+
+#bio {
+    font-size: 10pt;
+    display: none;
+}
+
+#listeners {
+    color: #cccccc;
+    font-size: 8pt;
+}
+
+#artist {
+    font-weight: bold;
+}

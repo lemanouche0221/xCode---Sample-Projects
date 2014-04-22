@@ -1,0 +1,113 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265
+{\fonttbl\f0\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red76\green78\blue78;\red0\green0\blue0;\red108\green5\blue211;
+\red0\green0\blue255;\red64\green128\blue0;\red255\green0\blue0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\f0\fs24 \cf2 -- Created 2013-10-14 16:05:02 +1100 by Shane Stanley\cf3 \
+\cf2 -- \'a9 2013\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 use
+\b0  \cf4 AppleScript\cf3  \cf5 version\cf3  "2.3"\
+
+\b use
+\b0  
+\i \cf5 scripting additions
+\i0 \cf3 \
+
+\b use
+\b0  
+\i \cf5 framework
+\i0 \cf3  "Foundation"\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+\cf2 -- Simple number formatter\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 property
+\b0  \cf6 theFormatter\cf3  : 
+\i \cf5 missing value
+\i0 \cf3 \
+
+\b on
+\b0  \cf7 formatNumber\cf3 :\cf6 n\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b if
+\b0  \cf6 theFormatter\cf3  = 
+\i \cf5 missing value
+\i0 \cf3  
+\b then
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf2 -- mkae a date formatter\cf3 \
+		
+\b set
+\b0  
+\b my
+\b0  \cf6 theFormatter\cf3  
+\b to
+\b0  
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSNumberFormatter's\cf3  \cf7 alloc\cf3 ()'s \cf7 init\cf3 ()\
+		
+\b tell
+\b0  
+\b my
+\b0  \cf6 theFormatter\cf3  \cf2 -- configure the formatter\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li2240\fi-2240\slleading22\pardirnatural
+\cf3 			
+\b its
+\b0  \cf7 setLocale:\cf3 (
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSLocale's\cf3  \cf7 alloc\cf3 ()'s \cf7 initWithLocaleIdentifier\cf3 :"fr")\
+			
+\b its
+\b0  \cf7 setNumberStyle:\cf3 (
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSNumberFormatterDecimalStyle\cf3 )\
+			
+\b its
+\b0  \cf7 setMinimumFractionDigits\cf3 :1\
+			
+\b its
+\b0  \cf7 setMaximumFractionDigits\cf3 :5\
+			
+\b its
+\b0  \cf7 setMinimumIntegerDigits\cf3 :1\
+			
+\b its
+\b0  \cf7 setRoundingMode:\cf3 (
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSNumberFormatterRoundHalfUp\cf3 )\
+			
+\b its
+\b0  \cf7 setHasThousandSeparators\cf3 :
+\i \cf4 false
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		
+\b end
+\b0  
+\b tell
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b end
+\b0  
+\b if
+\b0 \
+	\cf2 -- tell the formatter to format the number\cf3 \
+	
+\b return
+\b0  (\cf6 theFormatter's\cf3  \cf7 stringFromNumber\cf3 :\cf6 n\cf3 ) 
+\b as
+\b0  
+\i \cf5 text
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 end
+\b0  \cf7 formatNumber\cf3 :}

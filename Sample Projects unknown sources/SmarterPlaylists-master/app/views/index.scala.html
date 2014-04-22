@@ -1,0 +1,35 @@
+@(codes: List[String], countSuffix: String, hoursSuffix: String, minutesSuffix: String)
+
+@main("home") {
+
+                                        <!-- CTA Box -->
+						<form id="playlistUploadForm" method="post" action="/upload" enctype="multipart/form-data">
+                                                <div class="row">
+                                                        <div class="12u">
+                                                                <div class="cta-box">
+                                                                @if(flash.containsKey("error")){
+																	<div class="error">@flash.get("error")</div>
+																}
+																	<h2>@Messages("upload.label.header")</h2>
+																	<div class="input-row">
+																		<a class="helper-image" href="/assets/images/itunes.windows.export.png" title="@Messages("upload.label.export")"><img src="/assets/images/question.png"></a> 
+																		<input id="playlistUploadFile" type="file" name="library" required>
+																		<input class="button playlistUploadButton" type="submit" value="@Messages("upload.button.upload")" disabled>
+																	</div>
+																	<div class="input-row">
+																	@for(code <- codes) {
+																		<label class="row-option"><input type="checkbox" id="@code" name="@code" value="most" checked> @Messages("filter.label." + code)</label>
+																		<label class="row-count">@Messages("upload.label.count") <input type="number" id="@code.concat(countSuffix)" maxlength="5" min="0" name="@code.concat(countSuffix)" size="5"></label>
+																		<label class="row-time">@Messages("upload.label.time") 
+																			<input type="number" id="@code.concat(hoursSuffix)" maxlength="2" min="0" name="@code.concat(hoursSuffix)" size="2"> @Messages("upload.label.hours")
+																			<input type="number" id="@code.concat(minutesSuffix)" maxlength="2" min="0" name="@code.concat(minutesSuffix)" size="2"> @Messages("upload.label.minutes")
+																		</label>
+																	}
+																	</div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+						</form>
+                                        <!-- Divider -->
+
+}

@@ -1,0 +1,83 @@
+@(section: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html lang="@lang.code">
+    <head>
+        <title>@if(!section.equals("home")){@Messages("nav."+section) - }Smarter Playlists</title>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700" rel="stylesheet">
+		<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/style.css")">
+		<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/polyglot-language-switcher.css")">
+		<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/magnific-popup.css")">
+		<link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+		<script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script>
+		<script src="@routes.Assets.at("javascripts/main.js")" type="text/javascript"></script>
+		<script src="@routes.Assets.at("javascripts/jquery.polyglot.language.switcher.js")" type="text/javascript"></script>
+		<script src="@routes.Assets.at("javascripts/config.js")" type="text/javascript"></script>
+		<script src="@routes.Assets.at("javascripts/skel.min.js")" type="text/javascript"></script>
+		<script src="@routes.Assets.at("javascripts/skel-panels.min.js")" type="text/javascript"></script>
+		<script src="@routes.Assets.at("javascripts/magnific-popup-0.9.9.js")" type="text/javascript"></script>
+    </head>
+    <body>
+		<!-- Header -->
+
+			<div id="header-wrapper">
+				<header class="container" id="site-header">
+					<div class="row">
+						<div class="12u">
+							<div id="logo">
+								<h1>Smarter Playlists</h1>
+							</div>
+							<nav id="nav">
+								<ul>
+									<li @if(section.equals("home")){ class="current_page_item"}><a href="/">@Messages("nav.home")</a></li>
+									@if(section.equals("download")){<li class="current_page_item">@Messages("nav.download")</li>}
+									<li @if(section.equals("about")){ class="current_page_item"}><a href="/about">@Messages("nav.about")</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</header>
+			</div>
+
+		<!-- Main -->
+
+			<div id="main-wrapper">
+				<div class="container">
+@content
+				</div>
+			</div>
+
+		<!-- Footer -->
+
+			<div id="footer-wrapper">
+				<footer class="container" id="site-footer">
+					<div class="row">
+						<div class="12u">
+							<div class="divider"></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<div id="copyright">
+								<ul>
+									<li class="footer">&copy; Ben Levy. @Messages("footer.rights")</li>
+									<li class="footer">@Messages("footer.design"): <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+									<li class="footer last">
+									    <div id="polyglotLanguageSwitcher">
+											<form action="#">
+												<select id="polyglot-language-options">
+													<option id="en" value="en"@if(lang.code.equals("en")){ selected}>English</option>
+													<option id="es" value="es"@if(lang.code.equals("es")){ selected}>Espa&ntilde;ol</option>
+												</select>
+											</form>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+    </body>
+</html>

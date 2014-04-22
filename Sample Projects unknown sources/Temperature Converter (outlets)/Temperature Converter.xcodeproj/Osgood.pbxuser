@@ -1,0 +1,122 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B54D15521050725E0031F5AD /* Temperature Converter */;
+		activeTarget = 8D1107260486CEB800E47090 /* Temperature Converter */;
+		codeSenseManager = B54D1566105072620031F5AD /* Code sense */;
+		executables = (
+			B54D15521050725E0031F5AD /* Temperature Converter */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					746,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 275346877;
+			PBXWorkspaceStateSaveDate = 275346877;
+		};
+		perUserProjectItems = {
+			B55EB758105ADDA600CEE5A5 /* PBXTextBookmark */ = B55EB758105ADDA600CEE5A5 /* PBXTextBookmark */;
+			B5878F001069762E00E5A26B /* PBXTextBookmark */ = B5878F001069762E00E5A26B /* PBXTextBookmark */;
+		};
+		sourceControlManager = B54D1565105072620031F5AD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3B92A9F80F6ED2CB0023785B /* Temperature_ConverterAppDelegate.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 594}}";
+			sepNavSelRange = "{1011, 0}";
+			sepNavVisRange = "{0, 1011}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Temperature Converter */ = {
+		activeExec = 0;
+		executables = (
+			B54D15521050725E0031F5AD /* Temperature Converter */,
+		);
+	};
+	B54D15521050725E0031F5AD /* Temperature Converter */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Temperature Converter";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	B54D1565105072620031F5AD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B54D1566105072620031F5AD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B55EB758105ADDA600CEE5A5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3B92A9F80F6ED2CB0023785B /* Temperature_ConverterAppDelegate.applescript */;
+		name = "Temperature_ConverterAppDelegate.applescript: 25";
+		rLen = 0;
+		rLoc = 1011;
+		rType = 0;
+		vrLen = 1011;
+		vrLoc = 0;
+	};
+	B5878F001069762E00E5A26B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3B92A9F80F6ED2CB0023785B /* Temperature_ConverterAppDelegate.applescript */;
+		name = "Temperature_ConverterAppDelegate.applescript: 25";
+		rLen = 0;
+		rLoc = 1011;
+		rType = 0;
+		vrLen = 1011;
+		vrLoc = 0;
+	};
+}

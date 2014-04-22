@@ -1,0 +1,130 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265
+{\fonttbl\f0\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red76\green78\blue78;\red0\green0\blue0;\red108\green5\blue211;
+\red0\green0\blue255;\red64\green128\blue0;\red255\green0\blue0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\f0\fs24 \cf2 -- Created 2013-10-14 16:05:02 +1100 by Shane Stanley\cf3 \
+\cf2 -- \'a9 2013\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 use
+\b0  \cf4 AppleScript\cf3  \cf5 version\cf3  "2.3"\
+
+\b use
+\b0  
+\i \cf5 scripting additions
+\i0 \cf3 \
+
+\b use
+\b0  
+\i \cf5 framework
+\i0 \cf3  "Foundation"\
+
+\b use
+\b0  
+\i \cf5 framework
+\i0 \cf3  "AppKit" \cf2 -- for NSMetadataQuery\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+\cf2 -- Uses performSelectorOnMainThread::: to make sure query happens on main thread.\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 property
+\b0  \cf6 theSender\cf3  : 
+\i \cf5 missing value
+\i0 \cf3  \cf2 -- stores the calling script\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 on
+\b0  \cf7 doASearchFor\cf3 :\cf6 aString\cf3  \cf7 telling\cf3 :\cf6 sender\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b set
+\b0  
+\b my
+\b0  \cf6 theSender\cf3  
+\b to
+\b0  \cf6 sender\cf3  \cf2 -- store for later\cf3 \
+	\cf2 -- Build the search predicate\cf3 \
+	
+\b set
+\b0  \cf6 pred\cf3  
+\b to
+\b0  
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSPredicate's\cf3  \cf7 predicateWithFormat:\cf3 ("kMDItemTextContent == '" & \cf6 aString\cf3  & "'")\
+	\cf2 -- make the query\cf3 \
+	
+\b set
+\b0  \cf6 theQuery\cf3  
+\b to
+\b0  
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSMetadataQuery's\cf3  \cf7 alloc\cf3 ()'s \cf7 init\cf3 ()\
+	\cf6 theQuery's\cf3  \cf7 setPredicate\cf3 :\cf6 pred\cf3 \
+	\cf2 -- set its search scope to the computer\cf3 \
+	\cf6 theQuery's\cf3  \cf7 setSearchScopes\cf3 :\{
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSMetadataQueryLocalComputerScope\cf3 \}\
+	\cf2 -- tell the notification center to tell us when it's done\cf3 \
+	
+\b set
+\b0  \cf6 notifCenter\cf3  
+\b to
+\b0  
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSNotificationCenter's\cf3  \cf7 defaultCenter\cf3 ()\
+	\cf6 notifCenter's\cf3  \cf7 addObserver\cf3 :
+\b me
+\b0  \cf7 selector\cf3 :"initialGatherDone:" \cf7 |name|:\cf3 (
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSMetadataQueryDidFinishGatheringNotification\cf3 ) \cf7 object\cf3 :\cf6 theQuery\cf3 \
+	\cf2 -- start searching  \cf3 \
+	\cf6 theQuery's\cf3  \cf7 performSelectorOnMainThread\cf3 :"startQuery" \cf7 withObject:\cf3 (
+\i \cf5 missing value
+\i0 \cf3 ) \cf7 waitUntilDone\cf3 :
+\i \cf4 false
+\i0 \cf3 \
+	\cf2 -- something for the Result window\cf3 \
+	
+\b return
+\b0  "Searching"\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 end
+\b0  \cf7 doASearchFor:telling\cf3 :\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 on
+\b0  \cf7 initialGatherDone\cf3 :\cf6 notification\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	\cf2 -- stop the query\cf3 \
+	
+\b set
+\b0  \cf6 theQuery\cf3  
+\b to
+\b0  \cf6 notification's\cf3  \cf7 object\cf3 ()\
+	\cf6 theQuery's\cf3  \cf7 stopQuery\cf3 ()\
+	
+\b set
+\b0  \cf6 theCount\cf3  
+\b to
+\b0  \cf6 theQuery's\cf3  \cf7 resultCount\cf3 () 
+\b as
+\b0  
+\i \cf5 integer
+\i0 \cf3 \
+	\cf2 -- we can get what attributes we want here, and call back to the calling script\cf3 \
+	\cf6 theSender's\cf3  \cf7 showDialog\cf3 :\cf6 theCount\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 end
+\b0  \cf7 initialGatherDone\cf3 :}

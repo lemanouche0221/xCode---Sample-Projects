@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>Audioscrobbler</string>
+	<key>CFBundleIdentifier</key>
+	<string>fm.last.Audioscrobbler</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.9.14</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Audioscrobbler</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>© Max Howell (2009–2010), Mike McQuaid (2013)</string>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>main</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSSupportsSuddenTermination</key>
+	<true/>
+	<key>LSUIElement</key>
+	<true/>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.7.0</string>
+	<key>LSMinimumSystemVersionByArchitecture</key>
+	<dict>
+		<key>i386</key>
+		<string>10.7.0</string>
+		<key>x86_64</key>
+		<string>10.7.0</string>
+	</dict>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUAllowsAutomaticUpdates</key>
+	<true/>
+	<key>SUCheckAtStartup</key>
+	<true/>
+	<key>SUFeedURL</key>
+	<string>http://www.methylblue.com/audioscrobbler/appcast.xml</string>
+	<key>SUScheduledCheckInterval</key>
+	<string>259200</string>
+	<key>SUPublicDSAKeyFile</key>
+	<string>methylblue.pem</string>
+</dict>
+</plist>

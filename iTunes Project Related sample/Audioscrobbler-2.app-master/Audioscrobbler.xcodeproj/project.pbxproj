@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		63ACA12D10079C54000A4069 /* Distribution */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 63ACA13010079C7D000A4069 /* Build configuration list for PBXAggregateTarget "Distribution" */;
+			buildPhases = (
+				63ACA12C10079C54000A4069 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Distribution;
+			productName = Distribution;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* main.xib */; };
+		27035FF41796095F0042A03C /* icon_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2771906117933E09007B5DF8 /* icon_green@2x.png */; };
+		27035FF51796095F0042A03C /* icon_inverted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2771906217933E09007B5DF8 /* icon_inverted@2x.png */; };
+		27035FF61796095F0042A03C /* icon_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2771906317933E09007B5DF8 /* icon_red@2x.png */; };
+		27035FF71796095F0042A03C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2771906417933E09007B5DF8 /* icon@2x.png */; };
+		6301E62410061AB900E87198 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6301E62310061AB900E87198 /* Sparkle.framework */; };
+		6301E62A10061ABE00E87198 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6301E62310061AB900E87198 /* Sparkle.framework */; };
+		63024AEC0F9640A8001B8E9B /* ITunesListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 63024AEB0F9640A8001B8E9B /* ITunesListener.m */; };
+		630EF82F1004ACC200EB28C2 /* AutoDash.m in Sources */ = {isa = PBXBuildFile; fileRef = 630EF82E1004ACC200EB28C2 /* AutoDash.m */; };
+		630EF8391004B61300EB28C2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630EF8381004B61300EB28C2 /* IOKit.framework */; };
+		632B2001100624150009A0B7 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 632B2000100624150009A0B7 /* Credits.html */; };
+		63451BC711BAD1C50087E3AB /* NSDictionary+Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 63451BC611BAD1C50087E3AB /* NSDictionary+Track.m */; };
+		6372C84F1007A01B00EC25F4 /* methylblue.pem in Resources */ = {isa = PBXBuildFile; fileRef = 6372C84E1007A01B00EC25F4 /* methylblue.pem */; };
+		637F074E0FAF20AD006EE129 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637F074D0FAF20AD006EE129 /* ScriptingBridge.framework */; };
+		6390167511CCE4DA00DCCC84 /* ShareWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6390167411CCE4DA00DCCC84 /* ShareWindowController.m */; };
+		63906F0C0F9DE71E00797A14 /* ShareWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63906F0B0F9DE71E00797A14 /* ShareWindow.xib */; };
+		63A29EAC11D6B90500D2441D /* icon_inverted.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A29EAA11D6B90500D2441D /* icon_inverted.png */; };
+		63A29EAD11D6B90500D2441D /* icon_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A29EAB11D6B90500D2441D /* icon_red.png */; };
+		63A29EAF11D6B92100D2441D /* icon_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A29EAE11D6B92100D2441D /* icon_green.png */; };
+		63C9B94A0F8672940065ED7F /* Audioscrobbler.icns in Resources */ = {isa = PBXBuildFile; fileRef = 63C9B9490F8672940065ED7F /* Audioscrobbler.icns */; };
+		63C9B9630F867C460065ED7F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C9B9620F867C460065ED7F /* Security.framework */; };
+		63D1D09F0F97FDB3004FBC05 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D1D09E0F97FDB3004FBC05 /* Growl.framework */; };
+		63D1D0C40F97FF9B004FBC05 /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 63D1D09E0F97FDB3004FBC05 /* Growl.framework */; };
+		63D1D1040F980532004FBC05 /* lastfm.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D1D1030F980532004FBC05 /* lastfm.m */; };
+		63D1D2990F9A0CB1004FBC05 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D1D2980F9A0CB1004FBC05 /* Carbon.framework */; };
+		63D6DAF10F8396E000F4DCAA /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D6DAF00F8396E000F4DCAA /* MainController.m */; };
+		63D6DB380F8399E000F4DCAA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D6DB360F8399E000F4DCAA /* icon.png */; };
+		63F19A1B11D67ED700205103 /* HighResolutionTimer.h in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 63F19A1911D67ED700205103 /* HighResolutionTimer.h */; };
+		63F19A1C11D67ED700205103 /* HighResolutionTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F19A1A11D67ED700205103 /* HighResolutionTimer.m */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63D1D0C50F97FFB9004FBC05 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6301E62A10061ABE00E87198 /* Sparkle.framework in Copy Frameworks */,
+				63D1D0C40F97FF9B004FBC05 /* Growl.framework in Copy Frameworks */,
+				63F19A1B11D67ED700205103 /* HighResolutionTimer.h in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/main.xib; sourceTree = "<group>"; };
+		2771906117933E09007B5DF8 /* icon_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_green@2x.png"; sourceTree = "<group>"; };
+		2771906217933E09007B5DF8 /* icon_inverted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_inverted@2x.png"; sourceTree = "<group>"; };
+		2771906317933E09007B5DF8 /* icon_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_red@2x.png"; sourceTree = "<group>"; };
+		2771906417933E09007B5DF8 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* pc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pc.h; sourceTree = "<group>"; };
+		6301E62310061AB900E87198 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		63024AE90F964063001B8E9B /* ITunesListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITunesListener.h; sourceTree = "<group>"; };
+		63024AEB0F9640A8001B8E9B /* ITunesListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITunesListener.m; sourceTree = "<group>"; };
+		630EF82D1004ACC200EB28C2 /* AutoDash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoDash.h; sourceTree = "<group>"; };
+		630EF82E1004ACC200EB28C2 /* AutoDash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoDash.m; sourceTree = "<group>"; };
+		630EF8381004B61300EB28C2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		632B2000100624150009A0B7 /* Credits.html */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.html; sourceTree = "<group>"; };
+		63451BC511BAD1C50087E3AB /* NSDictionary+Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Track.h"; sourceTree = "<group>"; };
+		63451BC611BAD1C50087E3AB /* NSDictionary+Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Track.m"; sourceTree = "<group>"; };
+		6372C84E1007A01B00EC25F4 /* methylblue.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = methylblue.pem; sourceTree = "<group>"; };
+		637F07050FAF180F006EE129 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		637F074D0FAF20AD006EE129 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
+		6390167311CCE4DA00DCCC84 /* ShareWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWindowController.h; sourceTree = "<group>"; };
+		6390167411CCE4DA00DCCC84 /* ShareWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWindowController.m; sourceTree = "<group>"; };
+		63906F0B0F9DE71E00797A14 /* ShareWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareWindow.xib; sourceTree = "<group>"; };
+		63A29EAA11D6B90500D2441D /* icon_inverted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_inverted.png; sourceTree = "<group>"; };
+		63A29EAB11D6B90500D2441D /* icon_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_red.png; sourceTree = "<group>"; };
+		63A29EAE11D6B92100D2441D /* icon_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_green.png; sourceTree = "<group>"; };
+		63C9B9490F8672940065ED7F /* Audioscrobbler.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Audioscrobbler.icns; sourceTree = "<group>"; };
+		63C9B9620F867C460065ED7F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		63D1D09E0F97FDB3004FBC05 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		63D1D1020F980532004FBC05 /* lastfm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lastfm.h; sourceTree = "<group>"; };
+		63D1D1030F980532004FBC05 /* lastfm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lastfm.m; sourceTree = "<group>"; };
+		63D1D2980F9A0CB1004FBC05 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		63D6DAEF0F8396E000F4DCAA /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		63D6DAF00F8396E000F4DCAA /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		63D6DB360F8399E000F4DCAA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		63F19A1911D67ED700205103 /* HighResolutionTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighResolutionTimer.h; sourceTree = "<group>"; };
+		63F19A1A11D67ED700205103 /* HighResolutionTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighResolutionTimer.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Audioscrobbler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audioscrobbler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				63C9B9630F867C460065ED7F /* Security.framework in Frameworks */,
+				63D1D09F0F97FDB3004FBC05 /* Growl.framework in Frameworks */,
+				63D1D2990F9A0CB1004FBC05 /* Carbon.framework in Frameworks */,
+				637F074E0FAF20AD006EE129 /* ScriptingBridge.framework in Frameworks */,
+				630EF8391004B61300EB28C2 /* IOKit.framework in Frameworks */,
+				6301E62410061AB900E87198 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				63D6DAEF0F8396E000F4DCAA /* MainController.h */,
+				63D6DAF00F8396E000F4DCAA /* MainController.m */,
+				63024AEB0F9640A8001B8E9B /* ITunesListener.m */,
+				63024AE90F964063001B8E9B /* ITunesListener.h */,
+				63D1D1020F980532004FBC05 /* lastfm.h */,
+				63D1D1030F980532004FBC05 /* lastfm.m */,
+				63F19A1911D67ED700205103 /* HighResolutionTimer.h */,
+				63F19A1A11D67ED700205103 /* HighResolutionTimer.m */,
+				630EF82D1004ACC200EB28C2 /* AutoDash.h */,
+				630EF82E1004ACC200EB28C2 /* AutoDash.m */,
+				63451BC511BAD1C50087E3AB /* NSDictionary+Track.h */,
+				63451BC611BAD1C50087E3AB /* NSDictionary+Track.m */,
+				6390167311CCE4DA00DCCC84 /* ShareWindowController.h */,
+				6390167411CCE4DA00DCCC84 /* ShareWindowController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6301E62310061AB900E87198 /* Sparkle.framework */,
+				630EF8381004B61300EB28C2 /* IOKit.framework */,
+				637F074D0FAF20AD006EE129 /* ScriptingBridge.framework */,
+				63D1D2980F9A0CB1004FBC05 /* Carbon.framework */,
+				63D1D09E0F97FDB3004FBC05 /* Growl.framework */,
+				63C9B9620F867C460065ED7F /* Security.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Audioscrobbler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Audioscrobbler */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Audioscrobbler;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				637F07050FAF180F006EE129 /* iTunes.h */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				32CA4F630368D1EE00C91783 /* pc.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2771906117933E09007B5DF8 /* icon_green@2x.png */,
+				2771906217933E09007B5DF8 /* icon_inverted@2x.png */,
+				2771906317933E09007B5DF8 /* icon_red@2x.png */,
+				2771906417933E09007B5DF8 /* icon@2x.png */,
+				63D6DB360F8399E000F4DCAA /* icon.png */,
+				63A29EAA11D6B90500D2441D /* icon_inverted.png */,
+				63A29EAE11D6B92100D2441D /* icon_green.png */,
+				63A29EAB11D6B90500D2441D /* icon_red.png */,
+				632B2000100624150009A0B7 /* Credits.html */,
+				63C9B9490F8672940065ED7F /* Audioscrobbler.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				1DDD58140DA1D0A300B32029 /* main.xib */,
+				63906F0B0F9DE71E00797A14 /* ShareWindow.xib */,
+				6372C84E1007A01B00EC25F4 /* methylblue.pem */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Audioscrobbler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Audioscrobbler" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				63D1D0C50F97FFB9004FBC05 /* Copy Frameworks */,
+				6301B3AB1001078B00839558 /* Setup and Compress Last.fm.wdgt */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Audioscrobbler;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Audioscrobbler;
+			productReference = 8D1107320486CEB800E47090 /* Audioscrobbler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Audioscrobbler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Audioscrobbler */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Audioscrobbler */,
+				63ACA12D10079C54000A4069 /* Distribution */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDD58160DA1D0A300B32029 /* main.xib in Resources */,
+				63D6DB380F8399E000F4DCAA /* icon.png in Resources */,
+				63C9B94A0F8672940065ED7F /* Audioscrobbler.icns in Resources */,
+				63906F0C0F9DE71E00797A14 /* ShareWindow.xib in Resources */,
+				632B2001100624150009A0B7 /* Credits.html in Resources */,
+				6372C84F1007A01B00EC25F4 /* methylblue.pem in Resources */,
+				63A29EAC11D6B90500D2441D /* icon_inverted.png in Resources */,
+				63A29EAD11D6B90500D2441D /* icon_red.png in Resources */,
+				63A29EAF11D6B92100D2441D /* icon_green.png in Resources */,
+				27035FF41796095F0042A03C /* icon_green@2x.png in Resources */,
+				27035FF51796095F0042A03C /* icon_inverted@2x.png in Resources */,
+				27035FF61796095F0042A03C /* icon_red@2x.png in Resources */,
+				27035FF71796095F0042A03C /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6301B3AB1001078B00839558 /* Setup and Compress Last.fm.wdgt */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Last.fm.wdgt",
+			);
+			name = "Setup and Compress Last.fm.wdgt";
+			outputPaths = (
+				$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/Last.fm.wdgt.tar.bz2,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd $SOURCE_ROOT\nkey=$(grep LASTFM_API_KEY lastfm_api.h| egrep -o '[a-z0-9]{32}')\nsed \"s/#{LASTFM_API_KEY}/$key/\" Last.fm.wdgt/main.js.in > Last.fm.wdgt/main.js\ndst=\"$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/Last.fm.wdgt.tar.bz2\"\ntar cjf $dst Last.fm.wdgt";
+			showEnvVarsInLog = 0;
+		};
+		63ACA12C10079C54000A4069 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -o errexit\n\n# OSX copies special file attributes to ._files when you tar!\nexport COPY_EXTENDED_ATTRIBUTES_DISABLE=true\nexport COPYFILE_DISABLE=true\n\n[ $BUILD_STYLE = Release ] || { echo Distribution target requires \"'Release'\" build style; false; }\n\nVERSION=$(defaults read \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME.app/Contents/Info\" CFBundleVersion)\nDOWNLOAD_BASE_URL=\"http://www.methylblue.com/audioscrobbler\"\n\nARCHIVE_FILENAME=\"$PROJECT_NAME-$VERSION-mxcl.zip\"\nDOWNLOAD_URL=\"$DOWNLOAD_BASE_URL/$ARCHIVE_FILENAME\"\nKEYCHAIN_PRIVKEY_NAME=\"Sparkle Private Key\"\n\nSHA=`git show --pretty=format:\"%H\" | sed q`\n\nWD=$PWD\ncd \"$BUILT_PRODUCTS_DIR\"\nrm -f \"$PROJECT_NAME\"*.zip\nditto -ck --keepParent \"$PROJECT_NAME.app\" \"$ARCHIVE_FILENAME\"\n\nSIZE=$(stat -f %z \"$ARCHIVE_FILENAME\")\nPUBDATE=$(date +\"%a, %d %b %G %T %z\")\nSIGNATURE=$(\n\topenssl dgst -sha1 -binary < \"$ARCHIVE_FILENAME\" \\\n\t| openssl dgst -dss1 -sign <(security find-generic-password -g -s \"$KEYCHAIN_PRIVKEY_NAME\" 2>&1 1>/dev/null | perl -pe '($_) = /\"(.+)\"/; s/\\\\012/\\n/g') \\\n\t| openssl enc -base64\n)\n\n[ $SIGNATURE ] || { echo Unable to load signing private key with name \"'$KEYCHAIN_PRIVKEY_NAME'\" from keychain; false; }\n\nNUMCOM=`git rev-list --all | wc -l`\n\ncat <<EOF> appcast.xml\n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<rss version=\"2.0\" xmlns:sparkle=\"http://www.andymatuschak.org/xml-namespaces/sparkle\"\txmlns:dc=\"http://purl.org/dc/elements/1.1/\">\n\t<channel>\n\t\t<title>Audioscrobbler (Minimalist branch) Changelog</title>\n\t\t<link>http://www.methylblue.com/audioscrobbler/appcast.xml</link>\n\t\t<description>Most recent changes with links to updates.</description>\n\t\t<language>en</language>\n\t\t<item>\n\t\t\t<title>Version $VERSION</title>\n\t\t\t<pubDate>$PUBDATE</pubDate>\n\t\t\t<description>\n\t\t\t\t<![CDATA[<style>a{color:#fff;font-weight:bold;}body{background-image:url(http://methylblue.com/audioscrobbler/appcast-bg.png);background-position:top center;background-repeat:no-repeat;background-attachment:fixed;margin:87px 29px;font-family:\"Lucida Grande\";font-size:10pt;}</style><body>$NUMCOM commits<br>12 baths<br>15 episodes of Neighbours<p><a href='http://github.com/mxcl/lastfm-cocoa/commits/$SHA'>Full commit log</a></body>]]>\n\t\t\t</description>\n\t\t\t<enclosure\n\t\t\t\turl=\"$DOWNLOAD_URL\"\n\t\t\t\tsparkle:version=\"$VERSION\"\n\t\t\t\ttype=\"application/octet-stream\"\n\t\t\t\tlength=\"$SIZE\"\n\t\t\t\tsparkle:dsaSignature=\"$SIGNATURE\"\n\t\t\t/>\n\t\t</item>\n\t</channel>\n</rss>\nEOF\n\necho scp \"'$PWD/appcast.xml'\" \"'$PWD/$ARCHIVE_FILENAME'\" methylblue.com:public_html/audioscrobbler";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				63D6DAF10F8396E000F4DCAA /* MainController.m in Sources */,
+				63024AEC0F9640A8001B8E9B /* ITunesListener.m in Sources */,
+				63D1D1040F980532004FBC05 /* lastfm.m in Sources */,
+				630EF82F1004ACC200EB28C2 /* AutoDash.m in Sources */,
+				63451BC711BAD1C50087E3AB /* NSDictionary+Track.m in Sources */,
+				6390167511CCE4DA00DCCC84 /* ShareWindowController.m in Sources */,
+				63F19A1C11D67ED700205103 /* HighResolutionTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DDD58140DA1D0A300B32029 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63ACA12E10079C54000A4069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Distribution;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		63ACA12F10079C54000A4069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Distribution;
+				SDKROOT = macosx10.7;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = pc.h;
+				GCC_PREPROCESSOR_DEFINITIONS = __AS_DEBUGGING__;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Audioscrobbler;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = pc.h;
+				GCC_THREADSAFE_STATICS = NO;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Audioscrobbler;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = __AS_DEBUGGING__;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G4;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63ACA13010079C7D000A4069 /* Build configuration list for PBXAggregateTarget "Distribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ACA12E10079C54000A4069 /* Debug */,
+				63ACA12F10079C54000A4069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Audioscrobbler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Audioscrobbler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

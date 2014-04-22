@@ -1,0 +1,27 @@
+--- #YAML:1.0
+name:               Mac-iTunes
+version:            1.22
+abstract:           interact with and control iTunes
+author:
+    - brian d foy <bdfoy@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Mac::AppleScript:   0.03
+    Mac::Path::Util:    0.07
+    Mac::PropertyList:  0
+    MP3::Info:          0
+    Test::Manifest:     1.14
+    Test::More:         0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.55_02
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4

@@ -1,0 +1,8 @@
+/Audioscrobbler.xcodeproj/*.mode*v3
+/Audioscrobbler.xcodeproj/*.pbxuser
+/Audioscrobbler.xcodeproj/project.xcworkspace/
+/Audioscrobbler.xcodeproj/xcuserdata/
+/build/
+/lastfm_api.h
+/Last.fm.wdgt/main.js
+.DS_Store

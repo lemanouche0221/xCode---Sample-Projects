@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>2</integer>
+	<key>Date</key><date>2013-11-28T02:17:11Z</date>
+	<key>Application Version</key><string>11.1.3</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/C:/Music/</string>
+	<key>Library Persistent ID</key><string>437026SJ3UJ3Y3T7</string>
+	<key>Tracks</key>
+	<dict>
+		<key>8844</key>
+		<dict>
+			<key>Track ID</key><integer>8844</integer>
+			<key>Name</key><string>Come Alive</string>
+			<key>Artist</key><string>Foo Fighters</string>
+			<key>Album</key><string>Echoes, Silence, Patience &#38; Grace</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7645402</integer>
+			<key>Total Time</key><integer>295523</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2008-11-06T05:06:02Z</date>
+			<key>Date Added</key><date>2010-03-21T04:49:15Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>155</integer>
+			<key>Play Date</key><integer>3470769760</integer>
+			<key>Play Date UTC</key><date>2013-12-25T04:42:40Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2013-06-08T23:50:19Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FEBA0A5A4AD727B0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Foo%20Fighters%20-%20Come%20Alive.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11716</key>
+		<dict>
+			<key>Track ID</key><integer>11716</integer>
+			<key>Name</key><string>My Friends</string>
+			<key>Artist</key><string>Red Hot Chili Peppers</string>
+			<key>Album</key><string>One Hot Minute</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Total Time</key><integer>143777</integer>
+			<key>Date Added</key><date>2010-03-21T05:00:27Z</date>
+			<key>Play Count</key><integer>36</integer>
+			<key>Play Date UTC</key><date>2013-08-08T09:05:07Z</date>
+			<key>Persistent ID</key><string>58129546BE036721</string>
+		</dict>
+		<key>12326</key>
+		<dict>
+			<key>Track ID</key><integer>12326</integer>
+			<key>Name</key><string>4th Of July</string>
+			<key>Artist</key><string>Soundgarden</string>
+			<key>Album</key><string>Superunknown</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Total Time</key><integer>369031</integer>
+			<key>Date Added</key><date>2010-07-05T10:46:19Z</date>
+			<key>Play Count</key><integer>106</integer>
+			<key>Play Date UTC</key><date>2013-09-18T05:11:31Z</date>
+			<key>Persistent ID</key><string>64CEC1404A7F5071</string>
+		</dict>
+		<key>15322</key>
+		<dict>
+			<key>Track ID</key><integer>15322</integer>
+			<key>Name</key><string>Pyramids</string>
+			<key>Artist</key><string>Frank Ocean</string>
+			<key>Composer</key><string>James Ho/Christopher Breaux</string>
+			<key>Album</key><string>channel ORANGE</string>
+			<key>Genre</key><string>R&#38;B</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>19033815</integer>
+			<key>Total Time</key><integer>593632</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2013-02-20T01:06:27Z</date>
+			<key>Date Added</key><date>2012-12-25T23:33:40Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>36</integer>
+			<key>Play Date</key><integer>3461398612</integer>
+			<key>Play Date UTC</key><date>2013-09-07T17:36:52Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2013-02-11T03:49:07Z</date>
+			<key>Normalization</key><integer>3056</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7F4DCB36553A2885</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/Frank%20Ocean/channel%20ORANGE/10%20Pyramids.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>15506</key>
+		<dict>
+			<key>Track ID</key><integer>15506</integer>
+			<key>Name</key><string>Isn't Life Wonderful? (Alex's Original Vocal Mix)</string>
+			<key>Artist</key><string>Alex d'Elia Vs. Ebop Allstars</string>
+			<key>Album</key><string>Trance Nation 4</string>
+			<key>Genre</key><string>Trance</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Total Time</key><integer>223137</integer>
+			<key>Date Added</key><date>2012-12-27T05:14:12Z</date>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date UTC</key><date>2013-01-23T03:30:43Z</date>
+			<key>Persistent ID</key><string>BF1BACAA02D17B5C</string>
+		</dict>
+		<key>15998</key>
+		<dict>
+			<key>Track ID</key><integer>15998</integer>
+			<key>Name</key><string>A Heavy Abacus</string>
+			<key>Artist</key><string>The Joy Formidable</string>
+			<key>Album</key><string>The Big Roar</string>
+			<key>Genre</key><string>Indie Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5860214</integer>
+			<key>Total Time</key><integer>220342</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2013-03-10T01:07:13Z</date>
+			<key>Date Added</key><date>2013-03-10T01:05:21Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3466337327</integer>
+			<key>Play Date UTC</key><date>2013-11-03T21:28:47Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2013-07-27T08:10:42Z</date>
+			<key>Normalization</key><integer>12627</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Big Roar</string>
+			<key>Sort Artist</key><string>Joy Formidable</string>
+			<key>Sort Name</key><string>Heavy Abacus</string>
+			<key>Persistent ID</key><string>IM523F629EF90USN</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Music/The%20Joy%20Formidable/The%20Big%20Roar/05%20A%20Heavy%20Abacus.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>45329</key>
+		<dict>
+			<key>Track ID</key><integer>45329</integer>
+			<key>Name</key><string>#484: Doppelgängers</string>
+			<key>Artist</key><string>Chicago Public Media</string>
+			<key>Album Artist</key><string>Chicago Public Media</string>
+			<key>Album</key><string>This American Life</string>
+			<key>Genre</key><string>Podcast</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>28629091</integer>
+			<key>Total Time</key><integer>3538494</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2014-01-06T03:14:24Z</date>
+			<key>Date Added</key><date>2014-01-06T03:14:23Z</date>
+			<key>Bit Rate</key><integer>64</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>(C) 1995-2013 Chicago Public Media &#38; Ira Glass</string>
+			<key>Release Date</key><date>2014-01-06T01:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>DCC0D4EA7A0C66A6</string>
+			<key>Track Type</key><string>File</string>
+			<key>Podcast</key><true/>
+			<key>Unplayed</key><true/>
+			<key>Location</key><string>file://localhost/C:/Music/Podcasts/This%20American%20Life/%23484_%20Doppelg%C3%A4ngers.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>Example Playlist</string>
+			<key>Playlist ID</key><integer>52376</integer>
+			<key>Playlist Persistent ID</key><string>KOE84JR7TCSI4094</string>
+			<key>Distinguished Kind</key><integer>4</integer>
+			<key>Music</key><true/>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>8844</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>12326</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Movies</string>
+			<key>Playlist ID</key><integer>108</integer>
+			<key>Playlist Persistent ID</key><string>104BB3CA6F6BA6BD</string>
+			<key>Distinguished Kind</key><integer>2</integer>
+			<key>Movies</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>Music Videos</string>
+			<key>Playlist ID</key><integer>89</integer>
+			<key>Playlist Persistent ID</key><string>K8H65CDE51610C01</string>
+			<key>Distinguished Kind</key><integer>205</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAQAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAACAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>TV Shows</string>
+			<key>Playlist ID</key><integer>111</integer>
+			<key>Playlist Persistent ID</key><string>29E3E831B6L1AB7C</string>
+			<key>Distinguished Kind</key><integer>3</integer>
+			<key>TV Shows</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,491 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265
+{\fonttbl\f0\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red76\green78\blue78;\red0\green0\blue0;\red108\green5\blue211;
+\red0\green0\blue255;\red64\green128\blue0;\red255\green0\blue0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\f0\fs24 \cf2 -- Created 2013-10-14 16:05:02 +1100 by Shane Stanley\cf3 \
+\cf2 -- \'a9 2013\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 use
+\b0  \cf4 AppleScript\cf3  \cf5 version\cf3  "2.3"\
+
+\b use
+\b0  
+\i \cf5 scripting additions
+\i0 \cf3 \
+
+\b use
+\b0  
+\i \cf5 framework
+\i0 \cf3  "Foundation"\
+
+\b use
+\b0  
+\i \cf5 framework
+\i0 \cf3  "AppKit"\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+\cf2 -- This is an adaption of one of Sal Soghoian's Cocoa-AppleScript applet samples.\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 property
+\b0  \cf6 thisProgressWindow\cf3  : 
+\i \cf5 missing value
+\i0 \cf3 \
+
+\b property
+\b0  \cf6 thisProgressIndicator\cf3  : 
+\i \cf5 missing value
+\i0 \cf3 \
+
+\b property
+\b0  \cf6 primaryTextField\cf3  : 
+\i \cf5 missing value
+\i0 \cf3 \
+
+\b property
+\b0  \cf6 secondaryTextField\cf3  : 
+\i \cf5 missing value
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 property
+\b0  \cf6 hitStop\cf3  : 
+\i \cf4 false
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 on
+\b0  \cf7 createProgressWindowWithTitle\cf3 :\cf6 initialWindowTitle\cf3  \cf7 intialMessage\cf3 :\cf6 initialDescriptionString\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b \cf5 log
+\b0 \cf3  "Create Progress Called"\
+	
+\b try
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		
+\b set
+\b0  
+\b my
+\b0  \cf6 hitStop\cf3  
+\b to
+\b0  
+\i \cf4 false
+\i0 \cf3 \
+		\cf2 -- create a window\cf3 \
+		
+\b set
+\b0  \cf6 thisProgressWindow\cf3  
+\b to
+\b0  
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSWindow's\cf3  \cf7 alloc\cf3 ()'s \cf7 initWithContentRect\cf3 :\{\{100, 100\}, \{360, 84\}\} \'ac\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li2240\fi-2240\slleading22\pardirnatural
+\cf3 			\cf7 styleMask:\cf3 (
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSTitledWindowMask\cf3 ) \'ac\
+			\cf7 backing:\cf3 (
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSBackingStoreBuffered\cf3 ) \'ac\
+			\cf7 defer\cf3 :
+\i \cf4 true
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 		\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf2 -- set the properties of the new window\cf3 \
+		\cf6 thisProgressWindow's\cf3  \cf7 setTitle\cf3 :\cf6 initialWindowTitle\cf3 \
+		\cf6 thisProgressWindow's\cf3  \cf7 setLevel:\cf3 (
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSFloatingWindowLevel\cf3 )\
+		\cf6 thisProgressWindow's\cf3  \cf7 |center|\cf3 ()\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 		\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf2 -- create a progress indicator\cf3 \
+		
+\b set
+\b0  \cf6 thisProgressIndicator\cf3  
+\b to
+\b0  
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSProgressIndicator's\cf3  \cf7 alloc\cf3 ()'s \cf7 initWithFrame\cf3 :\{\{10, 12\}, \{280, 20\}\}\
+		\cf2 -- set the properties of the progress indicator\cf3 \
+		\cf6 thisProgressIndicator's\cf3  \cf7 setUsesThreadedAnimation\cf3 :
+\i \cf4 true
+\i0 \cf3 \
+		\cf6 thisProgressIndicator's\cf3  \cf7 setStyle:\cf3 (
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSProgressIndicatorBarStyle\cf3 )\
+		\cf6 thisProgressIndicator's\cf3  \cf7 setDisplayedWhenStopped\cf3 :
+\i \cf4 true
+\i0 \cf3 \
+		\cf6 thisProgressIndicator's\cf3  \cf7 setControlSize:\cf3 (
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSRegularControlSize\cf3 )\
+		\cf6 thisProgressIndicator's\cf3  \cf7 setIndeterminate\cf3 :
+\i \cf4 true
+\i0 \cf3 \
+		\cf6 thisProgressIndicator's\cf3  \cf7 startAnimation\cf3 :\cf6 thisProgressIndicator\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 		\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf2 -- add the progress indicator to the content view of the window\cf3 \
+		
+\b set
+\b0  \cf6 thisContentView\cf3  
+\b to
+\b0  \cf6 thisProgressWindow's\cf3  \cf7 contentView\cf3 ()\
+		
+\b tell
+\b0  \cf6 thisContentView\cf3  
+\b to
+\b0  \cf7 addSubview\cf3 :\cf6 thisProgressIndicator\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 		\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf2 -- create a text field\cf3 \
+		
+\b set
+\b0  \cf6 primaryTextField\cf3  
+\b to
+\b0  
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSTextField's\cf3  \cf7 alloc\cf3 ()'s \cf7 initWithFrame\cf3 :\{\{10, 60\}, \{340, 18\}\}\
+		
+\b set
+\b0  \cf6 thisSystemFont\cf3  
+\b to
+\b0  
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSFont's\cf3  \cf7 systemFontOfSize\cf3 :13\
+		\cf6 primaryTextField's\cf3  \cf7 setFont\cf3 :\cf6 thisSystemFont\cf3 \
+		\cf6 primaryTextField's\cf3  \cf7 setBordered\cf3 :
+\i \cf4 false
+\i0 \cf3 \
+		\cf6 primaryTextField's\cf3  \cf7 setDrawsBackground\cf3 :
+\i \cf4 false
+\i0 \cf3 \
+		\cf6 primaryTextField's\cf3  \cf7 setSelectable\cf3 :
+\i \cf4 false
+\i0 \cf3 \
+		\cf6 primaryTextField's\cf3  \cf7 setEditable\cf3 :
+\i \cf4 false
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 		\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf6 primaryTextField's\cf3  \cf7 setStringValue:\cf3 (\cf6 initialDescriptionString\cf3 )\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 		\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf2 -- create a second text field\cf3 \
+		
+\b set
+\b0  \cf6 secondaryTextField\cf3  
+\b to
+\b0  
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSTextField's\cf3  \cf7 alloc\cf3 ()'s \cf7 initWithFrame\cf3 :\{\{10, 38\}, \{340, 18\}\}\
+		\cf6 secondaryTextField's\cf3  \cf7 setStringValue\cf3 :" "\
+		\cf6 secondaryTextField's\cf3  \cf7 setBordered\cf3 :
+\i \cf4 false
+\i0 \cf3 \
+		\cf6 secondaryTextField's\cf3  \cf7 setSelectable\cf3 :
+\i \cf4 false
+\i0 \cf3 \
+		\cf6 secondaryTextField's\cf3  \cf7 setEditable\cf3 :
+\i \cf4 false
+\i0 \cf3 \
+		\cf6 secondaryTextField's\cf3  \cf7 setDrawsBackground\cf3 :
+\i \cf4 false
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 		\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf2 -- add the text fields to the content view of the window\cf3 \
+		
+\b tell
+\b0  \cf6 thisContentView\cf3  
+\b to
+\b0  \cf7 addSubview\cf3 :\cf6 primaryTextField\cf3 \
+		
+\b tell
+\b0  \cf6 thisContentView\cf3  
+\b to
+\b0  \cf7 addSubview\cf3 :\cf6 secondaryTextField\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 		\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf2 -- create a button\cf3 \
+		
+\b set
+\b0  \cf6 thisStopButton\cf3  
+\b to
+\b0  
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSButton's\cf3  \cf7 alloc\cf3 ()'s \cf7 initWithFrame\cf3 :\{\{296, 10\}, \{60, 24\}\}\
+		\cf6 thisStopButton's\cf3  \cf7 setButtonType:\cf3 (
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSMomentaryPushInButton\cf3 )\
+		\cf6 thisStopButton's\cf3  \cf7 setBezelStyle:\cf3 (
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSRoundedBezelStyle\cf3 )\
+		\cf6 thisStopButton's\cf3  \cf7 setImagePosition:\cf3 (
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSNoImage\cf3 )\
+		\cf6 thisStopButton's\cf3  \cf7 setTitle\cf3 :"Stop"\
+		\cf6 thisStopButton's\cf3  \cf7 setTarget\cf3 :
+\b me
+\b0 \
+		\cf6 thisStopButton's\cf3  \cf7 setAction\cf3 :"cancelPressed:"\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 		\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf2 -- add created button to the content view\cf3 \
+		
+\b tell
+\b0  \cf6 thisContentView\cf3  
+\b to
+\b0  \cf7 addSubview\cf3 :\cf6 thisStopButton\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 		\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf2 -- display the window\cf3 \
+		\cf6 thisProgressWindow's\cf3  \cf7 makeKeyAndOrderFront\cf3 :\cf6 thisProgressWindow\cf3 \
+		
+\b tell
+\b0  
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSThread\cf3  
+\b to
+\b0  \cf7 sleepForTimeInterval\cf3 :1.0 \cf2 -- allows screen update\cf3 \
+		
+\b return
+\b0  
+\i \cf4 true
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b on
+\b0  
+\b error
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		
+\b return
+\b0  
+\i \cf4 false
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b end
+\b0  
+\b try
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 end
+\b0  \cf7 createProgressWindowWithTitle:intialMessage\cf3 :\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 on
+\b0  \cf7 readyProgressWindowWithMinimum\cf3 :\cf6 minimumValue\cf3  \cf7 withMaximum\cf3 :\cf6 maximumValue\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b \cf5 log
+\b0 \cf3  "Ready Progress Window Called"\
+	
+\b try
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf6 thisProgressIndicator's\cf3  \cf7 setIndeterminate\cf3 :
+\i \cf4 false
+\i0 \cf3 \
+		\cf6 thisProgressIndicator's\cf3  \cf7 setUsesThreadedAnimation\cf3 :
+\i \cf4 true
+\i0 \cf3 \
+		\cf6 thisProgressIndicator's\cf3  \cf7 setMinValue\cf3 :\cf6 minimumValue\cf3 \
+		\cf6 thisProgressIndicator's\cf3  \cf7 setMaxValue\cf3 :\cf6 maximumValue\cf3 \
+		\cf6 thisProgressIndicator's\cf3  \cf7 setDoubleValue\cf3 :\cf6 minimumValue\cf3 \
+		\cf6 primaryTextField's\cf3  \cf7 setStringValue\cf3 :""\
+		\cf6 secondaryTextField's\cf3  \cf7 setStringValue\cf3 :""\
+		
+\b return
+\b0  
+\i \cf4 true
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b on
+\b0  
+\b error
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		
+\b return
+\b0  
+\i \cf4 false
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b end
+\b0  
+\b try
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 end
+\b0  \cf7 readyProgressWindowWithMinimum:withMaximum\cf3 :\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 on
+\b0  \cf7 incrementProgressWindowWithCounter\cf3 :\cf6 thisLoopNumber\cf3  \cf7 itemName\cf3 :\cf6 thisItemName\cf3  \cf7 itemCount\cf3 :\cf6 thisItemCount\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b \cf5 log
+\b0 \cf3  "Increment Progress Called"\
+	
+\b if
+\b0  \cf6 hitStop\cf3  
+\b then
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf7 closeProgressWindow\cf3 ()\
+		
+\b return
+\b0  
+\i \cf4 false
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b end
+\b0  
+\b if
+\b0 \
+	
+\b try
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		\cf6 primaryTextField's\cf3  \cf7 setStringValue\cf3 :\cf6 thisItemName\cf3 \
+		\cf6 secondaryTextField's\cf3  \cf7 setStringValue:\cf3 ((\cf6 thisLoopNumber\cf3  
+\b as
+\b0  
+\i \cf5 string
+\i0 \cf3 ) & "/" & (\cf6 thisItemCount\cf3  
+\b as
+\b0  
+\i \cf5 string
+\i0 \cf3 ))\
+		\cf6 primaryTextField's\cf3  \cf7 display\cf3 ()\
+		\cf6 secondaryTextField's\cf3  \cf7 display\cf3 ()\
+		\cf6 thisProgressIndicator's\cf3  \cf7 incrementBy\cf3 :1\
+		\cf6 thisProgressWindow's\cf3  \cf7 makeKeyAndOrderFront\cf3 :
+\b me
+\b0 \
+		
+\b return
+\b0  
+\i \cf4 true
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b on
+\b0  
+\b error
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf3 		
+\b return
+\b0  
+\i \cf4 false
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b end
+\b0  
+\b try
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 end
+\b0  \cf7 incrementProgressWindowWithCounter:itemName:itemCount\cf3 :\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 on
+\b0  \cf7 nameFromPath\cf3 :\cf6 thePath\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b set
+\b0  \cf6 thePath\cf3  
+\b to
+\b0  
+\i \cf4 current application's
+\i0 \cf3  \cf6 NSString's\cf3  \cf7 stringWithString\cf3 :\cf6 thePath\cf3 \
+	
+\b return
+\b0  \cf6 thePath's\cf3  \cf7 lastPathComponent\cf3 ()\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 end
+\b0  \cf7 nameFromPath\cf3 :\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 on
+\b0  \cf7 cancelPressed\cf3 :\cf6 sender\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b \cf5 log
+\b0 \cf3  "Cancel Called"\
+	
+\b set
+\b0  
+\b my
+\b0  \cf6 hitStop\cf3  
+\b to
+\b0  
+\i \cf4 true
+\i0 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 end
+\b0  \cf7 cancelPressed\cf3 :\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 on
+\b0  \cf7 closeProgressWindow\cf3 ()\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf3 	
+\b \cf5 log
+\b0 \cf3  "Close Window Called"\
+	
+\b tell
+\b0  \cf6 thisProgressWindow\cf3  
+\b to
+\b0  \cf7 orderOut\cf3 :\cf6 thisProgressWindow\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf3 end
+\b0  \cf6 closeProgressWindow\cf3 \
+}

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plist version="1.0">
+    <dict>
+        <key>Major Version</key>
+        <integer>1</integer>
+        <key>Minor Version</key>
+        <integer>2</integer>
+        <key>Date</key>
+        <date>2013-11-28T02:17:11Z</date>
+        <key>Application Version</key>
+        <string>11.1.3</string>
+        <key>Features</key>
+        <integer>5</integer>
+        <key>Show Content Ratings</key>
+        <true/>
+        <key>Music Folder</key>
+        <string>file://localhost/C:/Music/</string>
+        <key>Library Persistent ID</key>
+        <string>437026SJ3UJ3Y3T7</string>
+        <key>Tracks</key>
+        <dict>
+            <key>8844</key>
+            <dict>
+                <key>Track ID</key>
+                <integer>8844</integer>
+                <key>Name</key>
+                <string>Come Alive</string>
+                <key>Artist</key>
+                <string>Foo Fighters</string>
+                <key>Album</key>
+                <string>Echoes, Silence, Patience &amp; Grace</string>
+                <key>Genre</key>
+                <string>Alternative</string>
+                <key>Kind</key>
+                <string>MPEG audio file</string>
+                <key>Size</key>
+                <integer>7645402</integer>
+                <key>Total Time</key>
+                <integer>310674</integer>
+                <key>Track Number</key>
+                <integer>5</integer>
+                <key>Year</key>
+                <integer>2007</integer>
+                <key>Date Modified</key>
+                <date>2008-11-06T05:06:02Z</date>
+                <key>Date Added</key>
+                <date>2010-03-21T04:49:15Z</date>
+                <key>Bit Rate</key>
+                <integer>192</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Play Count</key>
+                <integer>153</integer>
+                <key>Play Date</key>
+                <integer>3467659419</integer>
+                <key>Play Date UTC</key>
+                <date>2013-11-19T04:43:39Z</date>
+                <key>Skip Count</key>
+                <integer>4</integer>
+                <key>Skip Date</key>
+                <date>2013-06-08T23:50:19Z</date>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Persistent ID</key>
+                <string>FEBA0A5A4AD727B0</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file://localhost/C:/Music/Foo%20Fighters%20-%20Come%20Alive.mp3</string>
+                <key>File Folder Count</key>
+                <integer>5</integer>
+                <key>Library Folder Count</key>
+                <integer>1</integer>
+            </dict>
+            <key>13978</key>
+            <dict>
+                <key>Track ID</key>
+                <integer>13978</integer>
+                <key>Name</key>
+                <string>Neighborhood #4 (7 Kettles)</string>
+                <key>Artist</key>
+                <string>Arcade Fire</string>
+                <key>Album</key>
+                <string>Funeral</string>
+                <key>Genre</key>
+                <string>Indie Rock</string>
+                <key>Kind</key>
+                <string>MPEG audio file</string>
+                <key>Size</key>
+                <integer>10254167</integer>
+                <key>Total Time</key>
+                <integer>289802</integer>
+                <key>Disc Number</key>
+                <integer>1</integer>
+                <key>Disc Count</key>
+                <integer>1</integer>
+                <key>Track Number</key>
+                <integer>5</integer>
+                <key>Track Count</key>
+                <integer>10</integer>
+                <key>Year</key>
+                <integer>2004</integer>
+                <key>Date Modified</key>
+                <date>2011-11-30T13:33:30Z</date>
+                <key>Date Added</key>
+                <date>2011-11-26T02:46:55Z</date>
+                <key>Bit Rate</key>
+                <integer>256</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Part Of Gapless Album</key>
+                <true/>
+                <key>Play Count</key>
+                <integer>81</integer>
+                <key>Play Date</key>
+                <integer>3467457877</integer>
+                <key>Play Date UTC</key>
+                <date>2013-11-16T20:44:37Z</date>
+                <key>Skip Count</key>
+                <integer>3</integer>
+                <key>Skip Date</key>
+                <date>2013-03-29T05:29:19Z</date>
+                <key>Normalization</key>
+                <integer>1416</integer>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Persistent ID</key>
+                <string>2F99595C5C28D2D6</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file://localhost/C:/Music/Arcade%20Fire/Funeral/05%20Neighborhood%20%234%20(7%20Kettles).mp3</string>
+                <key>File Folder Count</key>
+                <integer>4</integer>
+                <key>Library Folder Count</key>
+                <integer>1</integer>
+            </dict>
+            <key>13974</key>
+            <dict>
+                <key>Track ID</key>
+                <integer>13974</integer>
+                <key>Name</key>
+                <string>Une Annee Sans Lumiere</string>
+                <key>Artist</key>
+                <string>Arcade Fire</string>
+                <key>Album</key>
+                <string>Funeral</string>
+                <key>Genre</key>
+                <string>Indie Rock</string>
+                <key>Kind</key>
+                <string>MPEG audio file</string>
+                <key>Size</key>
+                <integer>8053189</integer>
+                <key>Total Time</key>
+                <integer>221022</integer>
+                <key>Disc Number</key>
+                <integer>1</integer>
+                <key>Disc Count</key>
+                <integer>1</integer>
+                <key>Track Number</key>
+                <integer>3</integer>
+                <key>Track Count</key>
+                <integer>10</integer>
+                <key>Year</key>
+                <integer>2004</integer>
+                <key>Date Modified</key>
+                <date>2011-11-30T13:33:30Z</date>
+                <key>Date Added</key>
+                <date>2011-11-26T02:46:27Z</date>
+                <key>Bit Rate</key>
+                <integer>256</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Part Of Gapless Album</key>
+                <true/>
+                <key>Play Count</key>
+                <integer>78</integer>
+                <key>Play Date</key>
+                <integer>3467457275</integer>
+                <key>Play Date UTC</key>
+                <date>2013-11-16T20:34:35Z</date>
+                <key>Skip Count</key>
+                <integer>5</integer>
+                <key>Skip Date</key>
+                <date>2013-09-20T21:03:47Z</date>
+                <key>Normalization</key>
+                <integer>3017</integer>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Persistent ID</key>
+                <string>1944F62DA5E8170E</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file://localhost/C:/Music/Arcade%20Fire/Funeral/03%20Une%20Annee%20Sans%20Lumiere.mp3</string>
+                <key>File Folder Count</key>
+                <integer>4</integer>
+                <key>Library Folder Count</key>
+                <integer>1</integer>
+            </dict>
+        </dict>
+        <key>Playlists</key>
+        <array>
+            <dict>
+                <key>Name</key>
+                <string>3 filter.label.mostoftenplayed</string>
+                <key>All Items</key>
+                <true/>
+                <key>Playlist Items</key>
+                <array>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>8844</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>13978</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>13974</integer>
+                    </dict>
+                </array>
+            </dict>
+        </array>
+    </dict>
+</plist>

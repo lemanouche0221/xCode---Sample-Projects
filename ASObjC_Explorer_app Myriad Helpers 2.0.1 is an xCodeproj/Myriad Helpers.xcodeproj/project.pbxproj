@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		34040B56125575010063519E /* ObjectWithFords.m in Sources */ = {isa = PBXBuildFile; fileRef = 34040B55125575010063519E /* ObjectWithFords.m */; };
+		342FFDA512B5EE2900310A98 /* NSWindow+MyriadHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 342FFD9F12B5EE2900310A98 /* NSWindow+MyriadHelpers.m */; };
+		342FFDA612B5EE2900310A98 /* NSOpenSave+MyriadHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 342FFDA112B5EE2900310A98 /* NSOpenSave+MyriadHelpers.m */; };
+		342FFDA712B5EE2900310A98 /* NSAlert+MyriadHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 342FFDA312B5EE2900310A98 /* NSAlert+MyriadHelpers.m */; };
+		342FFE4412B6E4C100310A98 /* NSPathControl+MyriadHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 342FFE3F12B6E4C100310A98 /* NSPathControl+MyriadHelpers.m */; };
+		342FFE4612B6E4C100310A98 /* MHAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 342FFE4312B6E4C100310A98 /* MHAppDelegate.applescript */; };
+		342FFE5F12B6E5CD00310A98 /* NSDatePicker+MyriadHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 342FFE5D12B6E5CD00310A98 /* NSDatePicker+MyriadHelpers.m */; };
+		34C5A0CA12A5B66E00960C01 /* ObjectWithFordsTests.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 34C5A0C912A5B66E00960C01 /* ObjectWithFordsTests.applescript */; };
+		34C5A0CE12A5B71800960C01 /* DatePickerAndPathControlTests.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 34C5A0CD12A5B71800960C01 /* DatePickerAndPathControlTests.applescript */; };
+		34C5A0E012A5B7AC00960C01 /* CustomSheetTest.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 34C5A0DF12A5B7AC00960C01 /* CustomSheetTest.applescript */; };
+		34C5A0E412A5B7EB00960C01 /* AlertTest.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 34C5A0E312A5B7EB00960C01 /* AlertTest.applescript */; };
+		34C5A0F012A5B93800960C01 /* OpenSavePanelTests.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 34C5A0EF12A5B93800960C01 /* OpenSavePanelTests.applescript */; };
+		3BC3FB040ED20C27004AC079 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC3FB030ED20C27004AC079 /* AppleScriptObjC.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Myriad Helpers_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Myriad Helpers_Prefix.pch"; sourceTree = "<group>"; };
+		34040B54125575010063519E /* ObjectWithFords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectWithFords.h; sourceTree = "<group>"; };
+		34040B55125575010063519E /* ObjectWithFords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectWithFords.m; sourceTree = "<group>"; };
+		342FFD9F12B5EE2900310A98 /* NSWindow+MyriadHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+MyriadHelpers.m"; sourceTree = "<group>"; };
+		342FFDA012B5EE2900310A98 /* NSWindow+MyriadHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+MyriadHelpers.h"; sourceTree = "<group>"; };
+		342FFDA112B5EE2900310A98 /* NSOpenSave+MyriadHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOpenSave+MyriadHelpers.m"; sourceTree = "<group>"; };
+		342FFDA212B5EE2900310A98 /* NSOpenSave+MyriadHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOpenSave+MyriadHelpers.h"; sourceTree = "<group>"; };
+		342FFDA312B5EE2900310A98 /* NSAlert+MyriadHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+MyriadHelpers.m"; sourceTree = "<group>"; };
+		342FFDA412B5EE2900310A98 /* NSAlert+MyriadHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+MyriadHelpers.h"; sourceTree = "<group>"; };
+		342FFE3F12B6E4C100310A98 /* NSPathControl+MyriadHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPathControl+MyriadHelpers.m"; sourceTree = "<group>"; };
+		342FFE4012B6E4C100310A98 /* NSPathControl+MyriadHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPathControl+MyriadHelpers.h"; sourceTree = "<group>"; };
+		342FFE4312B6E4C100310A98 /* MHAppDelegate.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = MHAppDelegate.applescript; sourceTree = "<group>"; };
+		342FFE5D12B6E5CD00310A98 /* NSDatePicker+MyriadHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDatePicker+MyriadHelpers.m"; sourceTree = "<group>"; };
+		342FFE5E12B6E5CD00310A98 /* NSDatePicker+MyriadHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDatePicker+MyriadHelpers.h"; sourceTree = "<group>"; };
+		34C5A0C912A5B66E00960C01 /* ObjectWithFordsTests.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = ObjectWithFordsTests.applescript; sourceTree = "<group>"; };
+		34C5A0CD12A5B71800960C01 /* DatePickerAndPathControlTests.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = DatePickerAndPathControlTests.applescript; sourceTree = "<group>"; };
+		34C5A0DF12A5B7AC00960C01 /* CustomSheetTest.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = CustomSheetTest.applescript; sourceTree = "<group>"; };
+		34C5A0E312A5B7EB00960C01 /* AlertTest.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = AlertTest.applescript; sourceTree = "<group>"; };
+		34C5A0EF12A5B93800960C01 /* OpenSavePanelTests.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = OpenSavePanelTests.applescript; sourceTree = "<group>"; };
+		3BC3FB030ED20C27004AC079 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = /System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Myriad Helpers-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Myriad Helpers-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Myriad Helpers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Myriad Helpers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				3BC3FB040ED20C27004AC079 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				342FFE4312B6E4C100310A98 /* MHAppDelegate.applescript */,
+				34C5A0E312A5B7EB00960C01 /* AlertTest.applescript */,
+				34C5A0DF12A5B7AC00960C01 /* CustomSheetTest.applescript */,
+				34C5A0EF12A5B93800960C01 /* OpenSavePanelTests.applescript */,
+				34C5A0CD12A5B71800960C01 /* DatePickerAndPathControlTests.applescript */,
+				34C5A0C912A5B66E00960C01 /* ObjectWithFordsTests.applescript */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				3BC3FB030ED20C27004AC079 /* AppleScriptObjC.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Myriad Helpers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Spanner */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				34C5A0B912A5B5B600960C01 /* Helper files */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Spanner;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Myriad Helpers_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Myriad Helpers-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34C5A0B912A5B5B600960C01 /* Helper files */ = {
+			isa = PBXGroup;
+			children = (
+				34040B54125575010063519E /* ObjectWithFords.h */,
+				34040B55125575010063519E /* ObjectWithFords.m */,
+				342FFE4012B6E4C100310A98 /* NSPathControl+MyriadHelpers.h */,
+				342FFE3F12B6E4C100310A98 /* NSPathControl+MyriadHelpers.m */,
+				342FFE5E12B6E5CD00310A98 /* NSDatePicker+MyriadHelpers.h */,
+				342FFE5D12B6E5CD00310A98 /* NSDatePicker+MyriadHelpers.m */,
+				342FFDA412B5EE2900310A98 /* NSAlert+MyriadHelpers.h */,
+				342FFDA312B5EE2900310A98 /* NSAlert+MyriadHelpers.m */,
+				342FFDA212B5EE2900310A98 /* NSOpenSave+MyriadHelpers.h */,
+				342FFDA112B5EE2900310A98 /* NSOpenSave+MyriadHelpers.m */,
+				342FFDA012B5EE2900310A98 /* NSWindow+MyriadHelpers.h */,
+				342FFD9F12B5EE2900310A98 /* NSWindow+MyriadHelpers.m */,
+			);
+			name = "Helper files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Myriad Helpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Myriad Helpers" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Myriad Helpers";
+			productInstallPath = "$(HOME)/Applications";
+			productName = Spanner;
+			productReference = 8D1107320486CEB800E47090 /* Myriad Helpers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Myriad Helpers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Spanner */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Myriad Helpers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				34040B56125575010063519E /* ObjectWithFords.m in Sources */,
+				34C5A0CA12A5B66E00960C01 /* ObjectWithFordsTests.applescript in Sources */,
+				34C5A0CE12A5B71800960C01 /* DatePickerAndPathControlTests.applescript in Sources */,
+				34C5A0E012A5B7AC00960C01 /* CustomSheetTest.applescript in Sources */,
+				34C5A0E412A5B7EB00960C01 /* AlertTest.applescript in Sources */,
+				34C5A0F012A5B93800960C01 /* OpenSavePanelTests.applescript in Sources */,
+				342FFDA512B5EE2900310A98 /* NSWindow+MyriadHelpers.m in Sources */,
+				342FFDA612B5EE2900310A98 /* NSOpenSave+MyriadHelpers.m in Sources */,
+				342FFDA712B5EE2900310A98 /* NSAlert+MyriadHelpers.m in Sources */,
+				342FFE4412B6E4C100310A98 /* NSPathControl+MyriadHelpers.m in Sources */,
+				342FFE4612B6E4C100310A98 /* MHAppDelegate.applescript in Sources */,
+				342FFE5F12B6E5CD00310A98 /* NSDatePicker+MyriadHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Myriad Helpers_Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Myriad Helpers-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OSACOMPILE_EXECUTE_ONLY = YES;
+				PRODUCT_NAME = "Myriad Helpers";
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Myriad Helpers_Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Myriad Helpers-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OSACOMPILE_EXECUTE_ONLY = YES;
+				PRODUCT_NAME = "Myriad Helpers";
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Myriad Helpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Myriad Helpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

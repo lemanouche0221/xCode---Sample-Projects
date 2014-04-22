@@ -1,0 +1,11 @@
+*.swp
+*.pyc
+*.pyo
+.metadata
+.settings
+perl-library
+RemoteSystemsTempFiles
+dist
+MANIFEST
+upload.sh
+.idea

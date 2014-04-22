@@ -1,0 +1,178 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265
+{\fonttbl\f0\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red64\green128\blue0;\red0\green0\blue255;
+\red76\green78\blue78;\red0\green22\blue176;\red255\green0\blue0;\red108\green5\blue211;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\f0\b\fs24 \cf2 use
+\b0  \cf3 theLib\cf2  : 
+\i \cf4 script
+\i0 \cf2  "^" \cf5 -- required\cf2 \
+
+\b use
+\b0  
+\i \cf4 scripting additions
+\i0 \cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf2 try
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf2 	
+\b tell
+\b0  
+\i \cf4 application
+\i0 \cf2  "SystemUIServer" \cf5 -- need this in Explorer to avoid glitches with the open panel when logging\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf2 		
+\b set
+\b0  \cf3 itemsToProcess\cf2  
+\b to
+\b0  
+\b \cf6 choose file
+\b0 \cf2  \cf6 with prompt\cf2  "Choose some files to process:" 
+\b with
+\b0  \cf6 multiple selections allowed\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf2 	
+\b end
+\b0  
+\b tell
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf2 on
+\b0  
+\b error
+\b0  \cf4 number\cf2  -128\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf2 	
+\b return
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf2 end
+\b0  
+\b try
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf2 set
+\b0  \cf3 numberToProcess\cf2  
+\b to
+\b0  
+\b the
+\b0  
+\b \cf4 count
+\b0 \cf2  
+\b of
+\b0  \cf3 itemsToProcess\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+\cf5 -- Display an indeterminate progress window\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf2 tell
+\b0  \cf3 theLib\cf2  
+\b to
+\b0  \cf7 createProgressWindowWithTitle\cf2 :"Processing files" \cf7 intialMessage\cf2 :"Starting shortly\'85"\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+\cf5 -- set the range of the progress bar\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf2 tell
+\b0  \cf3 theLib\cf2  
+\b to
+\b0  \cf7 readyProgressWindowWithMinimum\cf2 :0 \cf7 withMaximum\cf2 :\cf3 numberToProcess\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+\cf5 -- process the chosen items\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf2 repeat
+\b0  
+\b with
+\b0  \cf3 i\cf2  
+\b from
+\b0  1 
+\b to
+\b0  \cf3 numberToProcess\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf2 	
+\b set
+\b0  \cf3 thisItem\cf2  
+\b to
+\b0  
+\i \cf4 item
+\i0 \cf2  \cf3 i\cf2  
+\b of
+\b0  
+\b the
+\b0  \cf3 itemsToProcess\cf2 \
+	
+\b set
+\b0  \cf3 thisItemName\cf2  
+\b to
+\b0  (\cf3 theLib's\cf2  \cf7 nameFromPath:\cf2 (\cf8 POSIX path\cf2  
+\b of
+\b0  \cf3 thisItem\cf2 ))\
+	
+\b set
+\b0  \cf3 theResult\cf2  
+\b to
+\b0  (\cf3 theLib's\cf2  \cf7 incrementProgressWindowWithCounter\cf2 :\cf3 i\cf2  \cf7 itemName\cf2 :\cf3 thisItemName\cf2  \cf7 itemCount\cf2 :\cf3 numberToProcess\cf2 )\
+	
+\b if
+\b0  
+\b not
+\b0  \cf3 theResult\cf2  
+\b then
+\b0  
+\b exit
+\b0  
+\b repeat
+\b0  \cf5 -- result is false on error or if Stop button hit\cf2 \
+	(
+\b my
+\b0  \cf7 processItem\cf2 :\cf3 thisItem\cf2 )\
+	
+\b if
+\b0  \cf3 i\cf2  = \cf3 numberToProcess\cf2  
+\b then
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1680\fi-1680\slleading22\pardirnatural
+\cf2 		
+\b tell
+\b0  \cf3 theLib\cf2  
+\b to
+\b0  \cf7 closeProgressWindow\cf2 ()\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf2 	
+\b end
+\b0  
+\b if
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf2 end
+\b0  
+\b repeat
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf2 on
+\b0  \cf7 processItem\cf2 :\cf3 thisItem\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li1120\fi-1120\slleading22\pardirnatural
+\cf2 	\cf5 -- Do your processing here\cf2 \
+	
+\b \cf4 delay
+\b0 \cf2  0.2\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7280\tx7840\tx8400\tx8960\tx9520\tx10080\tx10640\tx11200\tx11760\tx12320\tx12880\tx13440\li560\fi-560\slleading22\pardirnatural
+
+\b \cf2 end
+\b0  \cf7 processItem\cf2 :\
+}

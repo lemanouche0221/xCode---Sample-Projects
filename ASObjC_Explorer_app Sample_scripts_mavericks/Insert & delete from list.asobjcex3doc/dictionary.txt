@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary></dictionary>
